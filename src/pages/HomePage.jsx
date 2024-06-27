@@ -116,15 +116,16 @@ export const HomePage = () => {
                         Contáctanos
                     </ButtonComponent>
                 </div>
-                <div className="w-full h-auto flex px-20 relative">
+                <div className="w-full h-auto flex px-28 relative">
                     <div className="w-full flex justify-center">
-                        <p className="text-black text-2xl w-[39rem] leading-10 ml-16">
-                            <strong>JUST IN TIME    </strong> es una filosofía de la gestión 
-                            empresarial que habla de consolidar un vínculo 
-                            con empresa, mercado y sociedad. A través de 
-                            la satisfacción de las necesidades de todas 
-                            las partes mencionadas, especialmente la del 
-                            mercado o cliente.
+                        <p className="text-black text-2xl w-[39rem] leading-10 ml-24">
+                            <strong>JUST IN TIME    </strong> es una 
+                            filosofía de la gestión empresarial que 
+                            habla de consolidar un vínculo con empresa, 
+                            mercado y sociedad. A través de la 
+                            satisfacción de las necesidades de todas 
+                            las partes mencionadas, especialmente la 
+                            del mercado o cliente.
                             <br />
                             <br />
                             Cumpliendo con una producción y entrega del 
@@ -141,7 +142,7 @@ export const HomePage = () => {
                 </div>
             </div>
 
-            <div className="mt-20 w-full p-12 bg-gradient-to-br from-[#2E5AFC] to-[#172D7E] flex items-center justify-center">
+            <div className="mt-40 w-full p-12 bg-gradient-to-br from-[#2E5AFC] to-[#172D7E] flex items-center justify-center">
                     <p className="text-2xl w-[1364px] leading-10">
                         Cada ezlabon existe para mantener la cadena en 
                         unidad y lograr comunicarla con sus dos extremos. 
