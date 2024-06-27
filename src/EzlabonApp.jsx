@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom'
-import { Navbar } from './UI'
+import { Footer, Navbar } from './UI'
 
 export const EzlabonApp = () => {
     return (
@@ -7,6 +7,8 @@ export const EzlabonApp = () => {
             <Navbar />
             
             <Outlet />
+
+            <Footer />
         </>
     )
 }

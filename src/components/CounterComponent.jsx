@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const CounterComponent = ({ counter = 1000, text = '', subText = '' }) => {
+export const CounterComponent = ({ counter = '1000', text = '', subText = '' }) => {
     return (
-        <div className="flex flex-col items-center justify-center w-96 gap-2">
+        <div className="flex flex-col items-center justify-center gap-2">
             <p>
-                <span className='text-8xl text-blue-600'>+</span>
+                <span className='text-8xl text-[#2E5AFC]'>+</span>
                 <span className='font-medium text-7xl'>{ counter }</span>
             </p>
             <svg xmlns="http://www.w3.org/2000/svg" width="14.654" height="82.288" viewBox="0 0 14.654 82.288">
