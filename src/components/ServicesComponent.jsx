@@ -1,9 +1,10 @@
-export const ServicesComponent = ({ title = true, services = {} }) => {
+export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-gradient', children }) => {
     return (
-        <div className={`bg-half-gradient text-black pt-10`}>
-            <h1 className={`text-[#2E5AFC] font-semibold text-6xl text-center mb-10 ${ !title && 'hidden' }`}>SERVICIOS</h1>
+        <div className={`${ bg } text-black pt-10 relative`}>
+            { children }
+            <h1 className={`text-[#2E5AFC] font-semibold text-6xl text-center mb-16 ${ !title && 'hidden' }`}>SERVICIOS</h1>
             <div className='flex justify-center items-end'>
-                <div className='flex flex-col items-center relative z-30 gap-3 text-xl translate-x-20 -translate-y-7'  >
+                <div className='flex flex-col items-center relative z-50 gap-3 text-xl translate-x-20 -translate-y-7'  >
                     <div className='text-center'>
                         <p>{ services[1].p1 }</p>
                         { services[1].p2 && <p>{ services[1].p2 }</p> }
@@ -18,14 +19,14 @@ export const ServicesComponent = ({ title = true, services = {} }) => {
                     </div>
                     <div className='bg-white rounded-full p-7'>
                         <div className="rounded-full w-[450px] h-[450px] bg-white overflow-hidden relative">
-                            <div className={`w-full h-full absolute bg-[url('/img/services/${ services[1].img }')] bg-cover bg-no-repeat ${ services[1].custom }`}></div>
+                            <div className={`w-full h-full absolute ${ services[1].img } bg-cover bg-no-repeat ${ services[1].custom }`}></div>
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col items-center relative z-20 gap-3 text-xl' >
+                <div className='flex flex-col items-center relative z-40 gap-3 text-xl' >
                     <div className='bg-white rounded-full p-7'>
                         <div className="rounded-full w-[450px] h-[450px] bg-white overflow-hidden relative">
-                            <div className={`w-full h-full absolute bg-[url('/img/services/${services[2].img}')] bg-cover bg-no-repeat ${ services[2].custom }`}></div>
+                            <div className={`w-full h-full absolute ${services[2].img} bg-cover bg-no-repeat ${ services[2].custom }`}></div>
                         </div>
                     </div>
                     <div>
@@ -41,7 +42,7 @@ export const ServicesComponent = ({ title = true, services = {} }) => {
                         { services[2].p2 && <p>{ services[2].p2 }</p> }
                     </div>
                 </div>
-                <div className='flex flex-col items-center relative gap-3 text-xl -translate-x-20 -translate-y-7' >
+                <div className='flex flex-col items-center relative gap-3 text-xl -translate-x-20 -translate-y-7 z-30' >
                     <div className='text-center'>
                         <p>{ services[3].p1 }</p>
                         { services[3].p2 && <p>{ services[3].p2 }</p> }
@@ -56,7 +57,7 @@ export const ServicesComponent = ({ title = true, services = {} }) => {
                     </div>
                     <div className='bg-white rounded-full p-7'>
                         <div className="rounded-full w-[450px] h-[450px] bg-white overflow-hidden relative">
-                            <div className={`w-full h-full absolute bg-[url('/img/services/${ services[3].img }')] bg-cover bg-no-repeat ${ services[3].custom }`}></div>
+                            <div className={`w-full h-full absolute ${ services[3].img } bg-cover bg-no-repeat ${ services[3].custom }`}></div>
                         </div>
                     </div>
                 </div>
