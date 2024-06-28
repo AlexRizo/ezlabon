@@ -1,6 +1,6 @@
 import { Navigate } from "react-router-dom";
 import { EzlabonApp } from "../EzlabonApp";
-import { HomePage } from "../pages";
+import { HomePage, ServicesPage } from "../pages";
 
 export const AppRouter = [
     {
@@ -10,6 +10,10 @@ export const AppRouter = [
             {
                 path: '/',
                 element: <HomePage />
+            },
+            {
+                path: '/servicios',
+                element: <ServicesPage />
             }
         ]
     },

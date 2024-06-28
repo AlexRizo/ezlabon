@@ -9,13 +9,13 @@ export const Navbar = () => {
                 </NavLink>
             </nav>
             <nav className="flex gap-36 text-2xl">
-                <NavLink to={'/'}>
+                <NavLink to={ '/' }>
                     Inicio
                 </NavLink>
-                <NavLink>
+                <NavLink to={ '/servicios' }>
                     Servicios
                 </NavLink>
-                <NavLink>
+                <NavLink to={ '/contacto' }>
                     Contacto
                 </NavLink>
             </nav>

@@ -8,10 +8,10 @@ export const Footer = () => {
                 <NavLink to={ '/' }>
                     Inicio
                 </NavLink>
-                <NavLink>
+                <NavLink to={ '/servicio' }>
                     Servicios
                 </NavLink>
-                <NavLink>
+                <NavLink to={ '/contacto' }>
                     Contacto
                 </NavLink>
             </nav>
