@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import { ButtonComponent, ClientsSliderComponent, CounterComponent } from "../components"
 
 const counterData = [
@@ -64,10 +65,12 @@ export const HomePage = () => {
                 //? ButtonComponent puede recibir un { children } y 
                 //? { content }, pero sólo puede usar uno de los 2 
                 }
-                <ButtonComponent custom='absolute -bottom-14 flex gap-1 pt-8'>
-                    <img src="/img/clic-icon.png" alt="clic-here" />
-                    Conoce más de nuestros <strong>servicios</strong>
-                </ButtonComponent>
+                <NavLink to={"/servicios"} className="absolute -bottom-14 ">
+                    <ButtonComponent custom='flex gap-1 pt-8'>
+                        <img src="/img/clic-icon.png" alt="clic-here" />
+                        Conoce más de nuestros <strong>servicios</strong>
+                    </ButtonComponent>
+                </NavLink>
             </div>
 
             <div className="mt-24">

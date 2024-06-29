@@ -39,3 +39,11 @@ body {
 .custom-bg-exceso {
     background-image: url('/img/services/exceso.jpg');
 }
+
+.custom-bg-servicios-page {
+    background-image: url('/img/services/bg-services.jpg');
+}
+
+.custom-bg-contacto-page {
+    background-image: url('/img/contacto/bg-contacto.jpg');
+}
