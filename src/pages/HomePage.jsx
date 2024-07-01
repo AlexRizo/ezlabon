@@ -28,7 +28,7 @@ export const HomePage = () => {
 
     return (
         <>
-            <div className="w-full h-screen flex flex-col items-center bg-[url('/img/home/bg-home.jpg')] bg-no-repeat bg-cover">
+            <div className="w-full h-screen flex flex-col items-center bg-[url('/img/home/bg-home-mobile.jpg')] xl:bg-[url('/img/home/bg-home.jpg')] bg-no-repeat bg-cover bg-[-15rem] xl:bg-[0]">
                 <div className="flex flex-col h-full w-full items-end justify-center text-center">
                     <span className="flex flex-col items-center justify-center mt-28 mr-80">
                         <p className="text-3xl">
@@ -48,10 +48,12 @@ export const HomePage = () => {
                 <div className="flex flex-col h-full w-full items-start justify-center text-center">
                     <span className="flex flex-col items-center justify-center ml-60">
                         <div className="absolute translate-x-60 -translate-y-44">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="447.25" height="209.474" viewBox="0 0 447.25 209.474">
-                                <circle id="Elipse_2" data-name="Elipse 2" cx="7" cy="7" r="7" transform="translate(433.25 40.026)" fill="#fff"/>
-                                <path id="Trazado_479" data-name="Trazado 479" d="M503.741,655.623V446.9h439.5v45.715" transform="translate(-502.991 -446.149)" fill="none" stroke="#fff" strokeWidth="1.5"/>
-                            </svg>
+                            <div className="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="447.25" height="209.474" viewBox="0 0 447.25 209.474">
+                                    <circle id="Elipse_2" data-name="Elipse 2" cx="7" cy="7" r="7" transform="translate(433.25 40.026)" fill="#fff"/>
+                                    <path id="Trazado_479" data-name="Trazado 479" d="M503.741,655.623V446.9h439.5v45.715" transform="translate(-502.991 -446.149)" fill="none" stroke="#fff" strokeWidth="1.5"/>
+                                </svg>
+                            </div>
                         </div>
                         <p className="text-3xl">
                             Servicios integrales
