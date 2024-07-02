@@ -16,7 +16,7 @@ export const Footer = () => {
                 </NavLink>
             </nav>
             <div className="order-1 xl:order-2">
-                <img src="/img/footer/ezlabon.png" alt="Ezlabon" />
+                <img src="/img/footer/ezlabon.png" className="w-48" alt="Ezlabon" />
             </div>
             <nav className="flex xl:flex-col gap-7 order-3 items-center">
                 <a href="tel:+520000000000">
