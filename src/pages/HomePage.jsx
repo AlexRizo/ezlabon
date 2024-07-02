@@ -47,7 +47,7 @@ export const HomePage = () => {
                             <div className="xl:hidden">
                                 <svg id="Grupo_1" data-name="Grupo 1" xmlns="http://www.w3.org/2000/svg" width="6.414" height="90.355" viewBox="0 0 6.414 90.355">
                                     <circle id="Elipse_1" data-name="Elipse 1" cx="3.207" cy="3.207" r="3.207" transform="translate(0 83.941)" fill="#fff"/>
-                                    <path id="Trazado_45" data-name="Trazado 45" d="M1419.718,478.211V391.063" transform="translate(-1416.511 -391.063)" fill="none" stroke="#fff" stroke-width="1.5"/>
+                                    <path id="Trazado_45" data-name="Trazado 45" d="M1419.718,478.211V391.063" transform="translate(-1416.511 -391.063)" fill="none" stroke="#fff" strokeWidth="1.5"/>
                                 </svg>
                             </div>
                         </div>
