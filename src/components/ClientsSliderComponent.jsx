@@ -73,7 +73,7 @@ export const ClientsSliderComponent = () => {
             <div className="bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] grid grid-cols-2 items-center py-28 gap-x-5 gap-y-20 xl:hidden">
                     <img src="/img/slider/mobile/cocacola.png" alt="cocacola" className="m-auto" />
                     <img src="/img/slider/mobile/cocacola2.png" alt="grupo-mexico" className="m-auto" />
-                    <img src="/img/slider/mobile/tornel.png" alt="tornel" className="m-auto" />
+                    <img src="/img/slider/mobile/cocacola-small.png" alt="tornel" className="m-auto" />
                     <img src="/img/slider/mobile/arma-concreto.png" alt="arma-concreto" className="m-auto" />
                     <img src="/img/slider/mobile/cpc.png" alt="cpc" className="m-auto" />
                     <img src="/img/slider/mobile/kuehne-nagel.png" alt="kuehne-nagel" className="m-auto" />
