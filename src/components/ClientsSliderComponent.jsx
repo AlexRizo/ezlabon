@@ -84,7 +84,7 @@ export const ClientsSliderComponent = () => {
                             </g>
                         </svg>
                     </div>
-                    <img src="/img/slider/mobile/cocacola-small.png" alt="tornel" className="m-auto" />
+                    <img src="/img/slider/mobile/cocacolax2.png" alt="tornel" className="m-auto" />
                     <img src="/img/slider/mobile/arma-concreto.png" alt="arma-concreto" className="m-auto" />
                     <img src="/img/slider/mobile/cpc.png" alt="cpc" className="m-auto" />
                     <img src="/img/slider/mobile/kuehne-nagel.png" alt="kuehne-nagel" className="m-auto" />
