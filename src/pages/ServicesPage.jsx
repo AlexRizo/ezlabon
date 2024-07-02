@@ -12,13 +12,13 @@ const services1 = {
         p1: 'Traslados foráneos',
         p2: '',
         img: 'custom-bg-traslados-foraneos',
-        custom: 'bg-[left_-5rem_top_-3rem] scale-[1.9]'
+        custom: 'bg-[left_-1.75rem_top_-1rem] xl:bg-[left_-5rem_top_-3rem] scale-[1.9]'
     },
     3: {
         p1: 'Traslados locales',
         p2: '',
         img: 'custom-bg-traslados-locales',
-        custom: 'bg-[-9rem]'
+        custom: 'bg-[-2rem] xl:bg-[-9rem]'
     }
 }
 
@@ -92,7 +92,7 @@ const teamData = [
 export const ServicesPage = () => {
     return (
         <>
-            <IndexComponent title='SERVICIOS' img='custom-bg-servicios-page' />
+            <IndexComponent title='Servicios' img='custom-bg-servicios-page' />
         
             <ServicesComponent services={ services1 } />
 
