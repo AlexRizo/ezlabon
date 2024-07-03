@@ -28,7 +28,7 @@ export const HomePage = () => {
 
     return (
         <>
-            <div className="w-full h-screen flex flex-col items-center bg-[url('/img/home/bg-home-mobile.jpg')] xl:bg-[url('/img/home/bg-home.jpg')] bg-no-repeat bg-cover bg-[-15rem] xl:bg-[0]">
+            <div className="w-full h-screen flex flex-col items-center bg-[url('/img/home/bg-home-mobile.jpg')] xl:bg-[url('/img/home/bg-home.jpg')] bg-no-repeat bg-cover bg-right xl:bg-center">
                 <div className="flex flex-col h-full w-full items-end justify-center text-center">
                     <span className="flex flex-col items-center justify-center mt-44 xl:mt-28 mr-10 xl:mr-80">
                         <p className="xl:text-3xl">

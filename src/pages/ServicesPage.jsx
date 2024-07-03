@@ -18,7 +18,7 @@ const services1 = {
         p1: 'Traslados locales',
         p2: '',
         img: 'custom-bg-traslados-locales',
-        custom: 'bg-[-2rem] xl:bg-[-9rem]'
+        custom: 'bg-[-3rem] xl:bg-[-9rem]'
     }
 }
 
