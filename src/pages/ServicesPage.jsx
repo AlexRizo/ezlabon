@@ -96,7 +96,8 @@ export const ServicesPage = () => {
         
             <ServicesComponent services={ services1 } />
 
-            <div className='mt-16'>
+
+            <div className='mt-16 hidden'>
                 <div className='w-full h-28 bg-[#F5F5F5]'></div>
                 <div className="absolute translate-y-56 bg-[url('/img/home/experience-bg.png')] w-full h-[40rem] bg-cover bg-no-repeat bg-center z-10"></div>
                 <ServicesComponent title={ false } services={ services2 } bg="bg-half-gradient-2" >
