@@ -50,6 +50,11 @@ body {
     }
 }
 
+@media (min-width: 1280px) {
+    .custom-bg-contacto-page {
+        background-image: url('/img/contacto/bg-contacto.jpg');
+    }
+}
 .custom-bg-contacto-page {
-    background-image: url('/img/contacto/bg-contacto.jpg');
+    background-image: url('/img/contacto/bg-contacto-mobile.jpg');
 }

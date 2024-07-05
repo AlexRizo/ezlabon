@@ -6,7 +6,6 @@ export default {
       backgroundImage: {
         'half-gradient': 'linear-gradient(to bottom, #F5F5F5 65%, white 30%)',
         'half-gradient-2': 'linear-gradient(to bottom, #F5F5F5 50%, white 50%)',
-        'half-gradient-mobile': 'linear-gradient(to bottom, #F5F5F5 90%, white 10%)',
       }
     },
   },

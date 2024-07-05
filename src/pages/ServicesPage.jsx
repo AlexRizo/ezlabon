@@ -47,20 +47,19 @@ const teamData = [
     {
         icon: <TractoCamionIcon className="w-[80px] h-min xl:w-auto xl:h-auto" />,
         title: 'Tracto Camiones',
-        p1: 'para full y sencillo',
+        p: 'para full y sencillo',
         custom: 'order-1'
     },
     {
         icon: <PlataformasIcon className="w-[81px] h-min xl:w-auto xl:h-auto" />,
         title: 'Plataformas de 40 pies',
-        p1: 'para carga suelta',
-        p2: 'y carga contenerizada',
+        p: <span>para carga suelta y <br className='cl:hidden'/> carga contenerizada</span>,
         custom: 'order-2'
     },
     {
         icon: <DollysIcon className="w-[90px] h-min xl:w-auto xl:h-auto" />,
-        title: 'Equipo de arrastre de dollys',
-        custom: 'order-7'
+        title: <span>Equipo de <br className='xl:hidden' /> arrastre de dollys</span>,
+        custom: 'order-7',
     },
     {
         icon: <MontacargasIcon className="w-[72px] h-min xl:w-auto xl:h-auto" />,
@@ -85,15 +84,13 @@ const teamData = [
     {
         icon: <TallerIcon className="w-[51px] h-min xl:w-auto xl:h-auto" />,
         title: 'Taller completamente equipado',
-        p1: 'para el mantenimiento y',
-        p2: 'cuidado de nuestras unidades',
+        p: <span>para el mantenimiento y <br className='xl:hidden'/> cuidado de nuestras unidades</span>,
         custom: 'order-6'
     },
     {
         icon: <PlataformaPropiaIcon className="w-[79px] h-min xl:w-auto xl:h-auto" />,
         title: 'Plataforma propia (ARBA)',
-        p1: 'de rastreo satelital y monitoreo',
-        p2: 'completo de las unidades',
+        p: <span>de rastreo satelital y monitoreo <br className='xl:hidden'/> completo de las unidades</span>,
         custom: 'order-8'
     }
 ]
@@ -107,7 +104,7 @@ export const ServicesPage = () => {
 
             <div className='mt-16 hidden xl:block'>
                 <div className='w-full h-28 bg-[#F5F5F5]'></div>
-                <div className="absolute translate-y-56 bg-[url('/img/home/experience-bg.png')] w-full h-[40rem] bg-cover bg-no-repeat bg-center z-10"></div>
+                <div className="absolute translate-y-56 xl:bg-[url('/img/home/experience-bg.png')] w-full h-[40rem] bg-cover bg-no-repeat bg-center z-10"></div>
                 <ServicesComponent title={ false } services={ services2 } bg="bg-half-gradient-2" >
                     <div className='absolute w-full h-2/4 bg-[#F5F5F5] z-20 top-0'></div>
                 </ServicesComponent>
@@ -119,7 +116,7 @@ export const ServicesPage = () => {
                     {
                         teamData.map((item, index) => {
                             return (
-                                <EquipoComponent key={ index } title={ item.title } p1={ item.p1 } p2={ item.p2 } custom={ item.custom } >
+                                <EquipoComponent key={ index } title={ item.title } p={ item.p } custom={ item.custom } >
                                     { item.icon }
                                 </EquipoComponent>
                             )
