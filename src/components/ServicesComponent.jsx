@@ -1,7 +1,7 @@
 export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-gradient', children }) => {
     return (
         <>
-            <div className={`${ bg } text-black pt-10 relative hidden`}>
+            <div className={`${ bg } text-black pt-10 relative hidden xl:block`}>
                 { children }
                 <h1 className={`text-[#2E5AFC] font-semibold text-6xl text-center mb-16 ${ !title && 'hidden' }`}>SERVICIOS</h1>
                 <div className='flex justify-center items-end'>
