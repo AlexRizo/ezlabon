@@ -84,21 +84,21 @@ export const HomePage = () => {
                 //? { content }, pero sólo puede usar uno de los 2 
                 }
                 <NavLink to={"/servicios"} className="absolute bottom-5 xl:-bottom-14 w-full xl:w-auto px-4 xl:p-0">
-                    <ButtonComponent custom='flex justify-center gap-1 pt-3 xl:pt-8 px-0 w-full xl:w-auto text-sm'>
+                    <ButtonComponent custom='flex justify-center gap-1 pt-3 xl:pt-7 xl:pb-5 px-0 w-full xl:w-auto text-sm'>
                         <img src="/img/clic-icon.png" className="w-5 xl:w-auto" alt="clic-here" />
                         Conoce más de nuestros <strong>servicios</strong>
                     </ButtonComponent>
                 </NavLink>
             </div>
 
-            <div className="xl:mt-24">
-                <h1 className="text-3xl xl:text-5xl text-[#2E5AFC] font-semibold text-center py-5 xl:p-0">Experiencia</h1>
-                <div className="flex flex-col xl:flex-row items-center justify-center w-full xl:w-[85rem] xl:h-[40rem] xl:mt-16 xl:mx-auto">
+            <div className="">
+                <h1 className="text-3xl xl:text-5xl text-[#2E5AFC] font-semibold text-center py-5 xl:py-12 xl:mt-12">Experiencia</h1>
+                <div className="flex flex-col xl:flex-row items-center justify-center w-full xl:w-[85rem] xl:h-[41rem] xl:mx-auto">
                     <div className="bg-gray-100 w-full h-full flex items-center justify-center p-10">                            
                         <img src="/img/fletera-coliman.png" className="w-56 xl:w-auto" alt="Fletera Coliman" />
                     </div>
                     <div className="w-full h-full flex items-center justify-center bg-gradient-to-tr from-[#172D7E] to-[#2E5AFC] px-10 py-20">
-                        <p className="text-base xl:text-2xl xl:pl-20 xl:pr-10 leading-6 xl:leading-10">
+                        <p className="text-base xl:text-2xl xl:pl-7 xl:pr-6 leading-6 xl:leading-10">
                             <strong>ezlabon es la evolución de Fletera Coliman</strong>, una 
                             empresa con un trayecto de <strong>más de 50 años</strong>. Un 
                             negocio familiar que se ha formado durante tres 
@@ -121,16 +121,16 @@ export const HomePage = () => {
                 </div>
             </div>
             <div className="mt-5 xl:mt-72 flex flex-col items-center w-full">
-                <h1 className="text-[#2E5AFC] text-2xl xl:text-4xl font-semibold xl:mb-8 py-4 px-28 xl:p-0 text-center">Algunos de nuestros clientes</h1>
+                <h1 className="text-[#2E5AFC] text-2xl xl:text-5xl font-semibold xl:mb-8 py-4 px-28 xl:p-0 text-center">Algunos de nuestros clientes</h1>
                 <div className="w-full">
                     <ClientsSliderComponent />
                 </div>
             </div>
             <div className="xl:mt-16">
-                <div className="absolute translate-y-[6rem] bg-[url('/img/home/contact-bg.png')] w-full h-[45rem] bg-cover bg-no-repeat bg-[-7rem]">
+                <div className="absolute translate-y-[4.25rem] bg-[url('/img/home/contact-bg.png')] w-full h-[45rem] bg-cover bg-no-repeat bg-[-7rem]">
                 </div>
                 <div className="xl:mb-44 relative py-6 xl:p-0">
-                    <ButtonComponent custom="flex font-bold xl:gap-1 xl:pt-7 xl:pb-4 px-16 xl:px-[8rem] m-auto">
+                    <ButtonComponent custom="flex font-bold xl:gap-1 xl:pt-7 xl:pb-4 px-20 xl:px-[8rem] m-auto">
                         <img src="/img/clic-icon.png" className="w-5 xl:w-auto" alt="clic-here" />
                         Contáctanos
                     </ButtonComponent>
@@ -155,12 +155,12 @@ export const HomePage = () => {
                             convierta la necesidad en una solución.
                         </p>
                     </div>
-                    <div className="w-full flex xl:justify-center mt-5 xl:m-0">
-                        <img src="/img/home/just-in-time.png" className="w-80 xl:w-[476px]" alt="Just In Time" />
+                    <div className="w-full flex xl:justify-center mt-5 xl:m-0 relative">
+                        <img src="/img/home/just-in-time.png" className="w-80 xl:w-[476px] xl:absolute xl:-top-5" alt="Just In Time" />
                     </div>
                 </div>
             </div>
-            <div className="mt-5 xl:mt-40 w-full p-11 bg-gradient-to-b xl:bg-gradient-to-br from-[#2E5AFC] to-[#172D7E] flex items-center justify-center">
+            <div className="mt-5 xl:mt-40 w-full p-11 bg-gradient-to-br xl:bg-gradient-to-br from-[#2E5AFC] to-[#0e2269] flex items-center justify-center">
                     <p className="text-base xl:text-2xl xl:w-[1364px] xl:leading-10">
                         Cada ezlabon existe para mantener la cadena en 
                         unidad y lograr comunicarla con sus dos extremos. 

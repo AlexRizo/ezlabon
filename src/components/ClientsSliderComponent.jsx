@@ -11,7 +11,7 @@ export const ClientsSliderComponent = () => {
 
     return ( 
         <>
-            <div className="hidden xl:flex items-center justify-center xl:h-80 bg-[#2E5AFC]">
+            <div className="hidden xl:flex items-center justify-center xl:h-72 bg-[#2E5AFC]">
                 <Swiper
                     breakpoints={{
                         1024: {
@@ -26,7 +26,7 @@ export const ClientsSliderComponent = () => {
                     }}
                     modules={[FreeMode, Navigation]}
                     loop={ true }
-                    className="w-9/12 h-full"
+                    className="w-2/3 h-full"
                 >
                     <div className="swiper-button-prev !text-white !left-0 bg-[#2e5afc] !top-0 h-full flex items-center justify-center !m-0"></div>
                     <div className="swiper-button-next !text-white !right-0 bg-[#2e5afc] !top-0 h-full flex items-center justify-center !m-0" ></div>

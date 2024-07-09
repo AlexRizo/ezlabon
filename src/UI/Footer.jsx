@@ -1,5 +1,6 @@
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline"
 import { NavLink } from "react-router-dom"
+import { PhoneOutlinedIcon } from "../icons"
 
 export const Footer = () => {
     return (
@@ -20,7 +21,7 @@ export const Footer = () => {
             </div>
             <nav className="flex xl:flex-col gap-7 order-3 items-center">
                 <a href="tel:+520000000000">
-                    <PhoneIcon className="text-[#2E5AFC] h-6" />
+                    <PhoneOutlinedIcon />
                 </a>
                 <a href="mailto:ezlabon@ezlabon.com">
                     <EnvelopeIcon className="text-[#2E5AFC] h-10"/>

@@ -59,46 +59,46 @@ const teamData = [
     {
         icon: <DollysIcon className="w-[90px] h-min xl:w-auto xl:h-auto" />,
         title: <span>Equipo de <br className='xl:hidden' /> arrastre de dollys</span>,
-        custom: 'order-7',
+        custom: 'order-7 xl:order-3',
     },
     {
         icon: <MontacargasIcon className="w-[72px] h-min xl:w-auto xl:h-auto" />,
         title: 'Montacargas',
-        custom: 'order-3'
+        custom: 'order-3 xl:order-4'
     },
     {
         icon: <GruaIcon className="w-[81px] h-min xl:w-auto xl:h-auto" />,
         title: 'Grúa',
-        custom: 'order-4'
+        custom: 'order-4 xl:order-5'
     },
     {
         icon: <CamaIcon className="w-[113px] h-min xl:w-auto xl:h-auto" />,
         title: 'Cama baja',
-        custom: 'order-9'
+        custom: 'order-9 xl:order-6'
     },
     {
         icon: <CamionIcon className="w-[91px] h-min xl:w-auto xl:h-auto" />,
         title: 'Camión de volteo',
-        custom: 'order-5'
+        custom: 'order-5 xl:order-7'
     },
     {
         icon: <TallerIcon className="w-[51px] h-min xl:w-auto xl:h-auto" />,
         title: 'Taller completamente equipado',
-        p: <span>para el mantenimiento y <br className='xl:hidden'/> cuidado de nuestras unidades</span>,
-        custom: 'order-6'
+        p: <span>para el mantenimiento y <br/> cuidado de nuestras unidades</span>,
+        custom: 'order-6 xl:order-8'
     },
     {
         icon: <PlataformaPropiaIcon className="w-[79px] h-min xl:w-auto xl:h-auto" />,
         title: 'Plataforma propia (ARBA)',
-        p: <span>de rastreo satelital y monitoreo <br className='xl:hidden'/> completo de las unidades</span>,
-        custom: 'order-8'
+        p: <span>de rastreo satelital y monitoreo <br/> completo de las unidades</span>,
+        custom: 'order-8 xl:order-9'
     }
 ]
 
 export const ServicesPage = () => {
     return (
         <>
-            <IndexComponent title='Servicios' img='custom-bg-servicios-page' />
+            <IndexComponent title='Servicios' custom='uppercase' img='custom-bg-servicios-page' black />
         
             <ServicesComponent services={ services1 } />
 
@@ -124,7 +124,7 @@ export const ServicesPage = () => {
                     }
                 </div>
             </div>
-            <div className='flex items-center justify-center gap-4 xl:py-20 py-5 xl:px-0 px-[3.25rem]'>
+            <div className='flex items-center justify-center gap-4 xl:py-16 xl:mt-5 py-5 xl:px-0 px-[3.25rem]'>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="38.832" height="38.833" viewBox="0 0 38.832 38.833">
                         <g id="Grupo_128" data-name="Grupo 128" transform="translate(0 0)">

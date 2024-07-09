@@ -13,7 +13,7 @@ export const ContactoPage = () => {
     
     return (
         <>
-            <IndexComponent title='¡Pon tu carga en nuestras manos!' img='custom-bg-contacto-page' custom='bg-bottom' black={true} />
+            <IndexComponent title={<span className='font-semibold xl:text-6xl text-4xl'>¡Pon tu carga<br /> en nuestras<br /> manos!</span>} img='custom-bg-contacto-page' custom='bg-bottom' black={true} />
 
             <div className='container m-auto'>
                 <h1 className='text-[#2E5AFC] text-3xl xl:text-6xl font-semibold text-center bg-[#F5F5F5] xl:bg-transparent px-10 py-4 xl:py-16'>Cotiza tu transporte de carga:</h1>
