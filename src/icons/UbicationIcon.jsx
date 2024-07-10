@@ -1,10 +1,10 @@
 export const UbicationIcon = (props) => {
     return (
-        <svg
+      <svg
         xmlns="http://www.w3.org/2000/svg"
-        width={10.94}
-        height={20.187}
-        viewBox="0 0 10.94 20.187"
+        width={19.38}
+        height={36.479}
+        viewBox="0 0 19.38 36.479"
         {...props}
       >
         <g
@@ -18,15 +18,15 @@ export const UbicationIcon = (props) => {
         >
           <ellipse
             data-name="Elipse 17"
-            cx={4.97}
-            cy={4.97}
-            rx={4.97}
-            ry={4.97}
+            cx={9.19}
+            cy={9.19}
+            rx={9.19}
+            ry={9.19}
           />
           <path
             data-name="L\xEDnea 14"
-            transform="translate(4.97 9.94)"
-            d="M0 0L0 9.247"
+            transform="translate(9.19 18.38)"
+            d="M0 0L0 17.099"
           />
         </g>
       </svg>
