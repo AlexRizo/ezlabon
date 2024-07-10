@@ -17,23 +17,43 @@ body {
 }
 
 .custom-bg-autotransporte {
-    background-image: url('/img/services/autotransporte.jpg');
+    background-image: url('/img/services/autotransporte-mobile.jpg');
 }
+
+@media (min-width: 1280px) {
+    .custom-bg-autotransporte {
+        background-image: url('/img/services/autotransporte.jpg');
+    }
+}    
 
 .custom-bg-traslados-foraneos {
     background-image: url('/img/services/traslados.jpg');
 }
 
 .custom-bg-traslados-locales {
-    background-image: url('/img/services/traslados-loc.jpg');
+    background-image: url('/img/services/traslados-loc-mobile.jpg');
+}
+
+@media (min-width: 1280px) {
+    .custom-bg-traslados-locales {
+        background-image: url('/img/services/traslados-loc.jpg');
+    }
 }
 
 .custom-bg-almacenamiento {
     background-image: url('/img/services/almacenamiento.jpg');
 }
 
+
+
 .custom-bg-consolidacion {
-    background-image: url('/img/services/consolidacion.jpg');
+    background-image: url('/img/services/consolidacion-mobile.jpg');
+}
+
+@media (min-width: 1280px) {
+    .custom-bg-consolidacion {
+        background-image: url('/img/services/consolidacion.jpg');
+    }
 }
 
 .custom-bg-exceso {

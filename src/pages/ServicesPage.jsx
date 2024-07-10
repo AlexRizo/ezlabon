@@ -12,7 +12,7 @@ const services1 = {
         p1: 'Traslados foráneos',
         p2: '',
         img: 'custom-bg-traslados-foraneos',
-        custom: 'bg-[left_-1.75rem_top_-1rem] xl:bg-[left_-5rem_top_-3rem] scale-[1.9]'
+        custom: 'bg-[left_-1.70rem_top_-1rem] xl:bg-[left_-5rem_top_-3rem] scale-[1.9]'
     },
     3: {
         p1: 'Traslados locales',
@@ -27,7 +27,7 @@ const services2 = {
         p1: 'Consolidación y desconsolidación',
         p2: 'de mercancía',
         img: 'custom-bg-consolidacion',
-        custom: 'bg-[left_-8rem_top] '
+        custom: ''
     },
     2: {
         p1: 'Almacenaje bajo',

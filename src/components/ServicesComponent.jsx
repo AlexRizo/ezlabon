@@ -74,7 +74,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             <p>Autotransporte</p>
                             <p>de carga federal</p>
                         </div>
-                        <div className="relative -translate-x-[0.65rem]">
+                        <div className="relative -translate-x-[0.50rem]">
                             <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={26.396}
@@ -148,7 +148,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             <p>Traslados</p>
                             <p>locales</p>
                         </div>
-                        <div className="relative -translate-x-[0.65rem]">
+                        <div className="relative -translate-x-[0.50rem]">
                             <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={26.396}
@@ -183,7 +183,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                     <div className='flex flex-row-reverse items-center absolute z-20 text-sm top-0 translate-y-[25.50rem] -translate-x-4' >
                         <div className='bg-white rounded-full p-3'>
                             <div className="rounded-full w-[175px] h-[175px] bg-white overflow-hidden relative">
-                                <div className={`w-full h-full absolute bg-[url('/img/services/consolidacion.jpg')] bg-cover bg-no-repeat ${ services[2].custom }`}></div>
+                                <div className={`w-full h-full absolute custom-bg-consolidacion bg-cover bg-no-repeat bg-center`}></div>
                             </div>
                         </div>
                         <div className="rotate-180">
@@ -224,7 +224,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             <p>bajo techo</p>
                             <p>y aire libre</p>
                         </div>
-                        <div className="relative -translate-x-[0.65rem]">
+                        <div className="relative -translate-x-[0.50rem]">
                             <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={26.396}
@@ -297,7 +297,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                         </div>
                     </div>
                 </div>
-                <div className="absolute bottom-0 translate-y-64 bg-[url('/img/home/experience-bg-mobile.png')] w-[520px] h-[650px] bg-cover bg-[-17rem] bg-no-repeat"></div>
+                <div className="absolute bottom-0 translate-y-72 bg-[url('/img/home/experience-bg-mobile.png')] w-[530px] h-[660px] bg-cover bg-[-17rem] bg-no-repeat"></div>
             </div>
         </>
     )
