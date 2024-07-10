@@ -51,7 +51,7 @@ export const ContactoPage = () => {
                         <textarea className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal resize-none' name="detalles" rows="3" placeholder='¿Hay algún otro detalle que quieras agregar?'></textarea>
                     </div>
                     <div className='flex items-center justify-center mb-6 xl:mb-0 xl:mt-5'>
-                        <ButtonComponent content='Enviar' custom='font-bold px-16 xl:px-20 xl:py-4' />
+                        <ButtonComponent content='Enviar' custom='font-bold px-16 xl:px-20 py-2.5 xl:py-4' />
                     </div>
                 </form>
             </div>
@@ -60,52 +60,41 @@ export const ContactoPage = () => {
             </div>
             <div className='xl:mt-24 container m-auto'>
                 <div className='w-full h-[369px] xl:h-[580px]'>
-                    {/* <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1883.7857870626465!2d-103.72324114338869!3d19.213905995486094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDEyJzUwLjEiTiAxMDPCsDQzJzE5LjAiVw!5e0!3m2!1ses-419!2smx!4v1720197524745!5m2!1ses-419!2smx"
-                        height="100%"
-                        style={{ border: 0 }}
-                        allowFullScreen=""
-                        loading="lazy"
-                        width="100%"
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3767.5512761865194!2d-103.72251062916021!3d19.214791701152517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDEyJzUwLjEiTiAxMDPCsDQzJzE5LjAiVw!5e0!3m2!1ses-419!2smx!4v1720638366715!5m2!1ses-419!2smx" 
+                        width="100%" 
+                        height="100%" 
+                        style={{border:0}} 
+                        allowFullScreen="" 
+                        loading="lazy" 
                         referrerPolicy="no-referrer-when-downgrade"
-                    >
-                    </iframe> */}
-                    <iframe
-                    width="600"
-                    height="450"
-                    style={{border:0}}
-                    loading="lazy"
-                    allowFullScreen
-                    referrerPolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC_jaOtiVocZkkl4rzUuSG98e5itUul3xw
-                        &q=Space+Needle,Seattle+WA">
-                    </iframe>
+                        ></iframe>
                 </div>
                 <div className="xl:px-40 px-10 xl:pb-20 mb-7 xl:m-0">
                     <h1 className='text-lg leading-5 xl:leading-normal xl:text-2xl text-[#2E5AFC] font-bold my-5 xl:mb-16'>Con base en Manzanillo y Colima, con cobertura en todo el <br className='xl:hidden' /> territorio Nacional.</h1>
-                    <div className='flex flex-col gap-5 xl:gap-10'>
-                        <div className='text-sm xl:text-2xl flex items-center xl:gap-5 text-black'>
-                            <div className='w-[40px] flex justify-center'>
+                    <div className='flex flex-col gap-3 xl:gap-10'>
+                        <div className='text-sm xl:text-2xl flex items-center gap-3 xl:gap-5 text-black'>
+                            <div className='w-[21px] xl:w-[40px] flex justify-center'>
                                 <UbicationIcon className="w-[10px] xl:w-auto" />
                             </div>
                             <p>KM 220 carretera Jiquilpan-Manzanillo</p>
                         </div>
-                        <div className='text-sm xl:text-2xl flex items-center xl:gap-5 text-black'>
-                            <div className='w-[40px] flex justify-center'>
+                        <div className='text-sm xl:text-2xl flex items-center gap-3 xl:gap-5 text-black'>
+                            <div className='w-[21px] xl:w-[40px] flex justify-center'>
                                 <PhoneIcon className="w-[15px] xl:w-auto" />
                             </div>
                             <p>312-307-3620 ext 1358</p>
                         </div>
-                        <div className='text-sm xl:text-2xl flex items-center xl:gap-5 text-black'>
-                            <div className='w-[40px] flex justify-center'>
+                        <div className='text-sm xl:text-2xl flex items-center gap-3 xl:gap-5 text-black'>
+                            <div className='w-[21px] xl:w-[40px] flex justify-center'>
                                 <WhatsAppIcon className="w-[20px] xl:w-auto" />
                             </div>
                             <p>312-102-1117</p>
                         </div>
                         <div className='xl:flex gap-32 hidden'>
                             <div className='flex flex-col gap-10'>
-                                <div className="flex items-center xl:gap-5 text-black" >
-                                    <div className='w-[40px] flex justify-center'>
+                                <div className="flex items-center gap-3 xl:gap-5 text-black" >
+                                    <div className='w-[21px] xl:w-[40px] flex justify-center'>
                                         <MailIcon className="w-[21px] xl:w-auto" />
                                     </div>
                                     <span className='text-sm xl:text-2xl'>
@@ -114,7 +103,7 @@ export const ContactoPage = () => {
                                     </span>
                                 </div>
                                 <div className="flex items-center just gap-5 text-black" >
-                                    <div className='w-[40px] flex justify-center'>
+                                    <div className='w-[21px] xl:w-[40px] flex justify-center'>
                                         <MailIcon className="w-[21px] xl:w-auto" />
                                     </div>
                                     <span className='text-sm xl:text-2xl'>
@@ -125,7 +114,7 @@ export const ContactoPage = () => {
                             </div>
                             <div className='flex flex-col xl:gap-10'>
                                 <div className="flex items-center just gap-5 text-black" >
-                                    <div className='w-[40px] flex justify-center'>
+                                    <div className='w-[21px] xl:w-[40px] flex justify-center'>
                                         <MailIcon className="w-[21px] xl:w-auto" />
                                     </div>
                                     <span className='text-2xl'>
@@ -134,7 +123,7 @@ export const ContactoPage = () => {
                                     </span>
                                 </div>
                                 <div className="flex items-center just gap-5 text-black" >
-                                    <div className='w-[40px] flex justify-center'>
+                                    <div className='w-[21px] xl:w-[40px] flex justify-center'>
                                         <MailIcon className="w-[21px] xl:w-auto" />
                                     </div>
                                     <span className='text-2xl'>
@@ -145,42 +134,42 @@ export const ContactoPage = () => {
                             </div>
                         </div>
 
-                        <div className='flex xl:flex-row flex-col gap-2 xl:gap-36 xl:hidden'>
-                            <div className='flex flex-col gap-2 xl:gap-10'>
-                                <div className="flex items-center xl:gap-5 text-black" >
-                                    <div className='w-[40px] flex justify-center'>
-                                        <MailIcon className="" />
+                        <div className='flex xl:flex-row flex-col gap-2 xl:hidden'>
+                            <div className='flex flex-col gap-2'>
+                                <div className="flex items-center gap-3 text-black" >
+                                    <div className='w-[21px] flex justify-center'>
+                                        <MailIcon className="w-[21px]" />
                                     </div>
-                                    <span className='text-sm xl:text-2xl'>
+                                    <span className='text-sm'>
                                         <h1 className='text-[#2E5AFC] font-bold'>contacto:</h1>
                                         <p>administracion@ezlabon.mx</p>
                                     </span>
                                 </div>
-                                <div className="flex items-center xl:gap-5 text-black" >
-                                    <div className='w-[40px] flex justify-center'>
-                                        <MailIcon className="" />
+                                <div className="flex items-center gap-3 text-black" >
+                                    <div className='w-[21px] flex justify-center'>
+                                        <MailIcon className="w-[21px]" />
                                     </div>
-                                    <span className='text-sm xl:text-2xl'>
+                                    <span className='text-sm'>
                                         <h1 className='text-[#2E5AFC] font-bold'>embarques:</h1>
                                         <p>trafico@ezlabon.mx</p>
                                     </span>
                                 </div>
                             </div>
-                            <div className='flex flex-col gap-2 xl:gap-10'>
-                                <div className="flex items-center xl:gap-5 text-black" >
-                                    <div className='w-[40px] flex justify-center'>
-                                        <MailIcon className="" />
+                            <div className='flex flex-col gap-2'>
+                                <div className="flex items-center gap-3 text-black" >
+                                    <div className='w-[21px] flex justify-center'>
+                                        <MailIcon className="w-[21px]" />
                                     </div>
-                                    <span className='text-sm xl:text-2xl'>
+                                    <span className='text-sm'>
                                         <h1 className='text-[#2E5AFC] font-bold'>cotizaciones:</h1>
                                         <p>rbayardo@ezlabon.mx</p>
                                     </span>
                                 </div>
-                                <div className="flex items-center xl:gap-5 text-black" >
-                                    <div className='w-[40px] flex justify-center'>
-                                        <MailIcon className="" />
+                                <div className="flex items-center gap-3 text-black" >
+                                    <div className='w-[21px] flex justify-center'>
+                                        <MailIcon className="w-[21px]" />
                                     </div>
-                                    <span className='text-sm xl:text-2xl'>
+                                    <span className='text-sm'>
                                         <h1 className='text-[#2E5AFC] font-bold'>gerente admin:</h1>
                                         <p>heriberto@ezlabon.mx</p>
                                     </span>
