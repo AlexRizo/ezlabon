@@ -30,7 +30,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                                 <div className={`w-full h-full absolute ${services[2].img} bg-cover bg-no-repeat ${ services[2].custom }`}></div>
                             </div>
                         </div>
-                        <div>
+                        <div className="rotate-180">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16.72" height="93.89" viewBox="0 0 16.72 93.89">
                                 <g id="Grupo_48" data-name="Grupo 48" transform="translate(-1321.3 -292.83)">
                                     <line id="Línea_9" data-name="Línea 9" y2="86.98" transform="translate(1329.66 292.83)" fill="none" stroke="#2e5afc" strokeMiterlimit="10" strokeWidth="1"/>
