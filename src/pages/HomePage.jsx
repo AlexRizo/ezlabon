@@ -94,11 +94,11 @@ export const HomePage = () => {
             <div className="">
                 <h1 className="text-3xl xl:text-5xl text-[#2E5AFC] font-semibold text-center py-5 xl:py-12 xl:mt-12">Experiencia</h1>
                 <div className="flex flex-col xl:flex-row items-center justify-center w-full xl:w-[85rem] xl:h-[41rem] xl:mx-auto">
-                    <div className="bg-gray-100 w-full h-full flex items-center justify-center p-10">                            
-                        <img src="/img/fletera-coliman.png" className="w-56 xl:w-auto" alt="Fletera Coliman" />
+                    <div className="bg-gray-100 w-full h-full flex items-center justify-center xl:px-10 py-16">                            
+                        <img src="/img/fletera-coliman.png" className="w-64 xl:w-auto" alt="Fletera Coliman" />
                     </div>
-                    <div className="w-full h-full flex items-center justify-center bg-gradient-to-tr from-[#172D7E] to-[#2E5AFC] px-10 py-20">
-                        <p className="text-base xl:text-2xl xl:pl-7 xl:pr-6 leading-6 xl:leading-10">
+                    <div className="w-full h-full flex items-center justify-center bg-gradient-to-tr from-[#172D7E] to-[#2E5AFC] xl:px-10 py-20">
+                        <p className="text-base xl:text-2xl xl:pl-7 xl:pr-6 leading-6 xl:leading-10 w-[340px] xl:w-auto">
                             <strong>ezlabon es la evolución de Fletera Coliman</strong>, una 
                             empresa con un trayecto de <strong>más de 50 años</strong>. Un 
                             negocio familiar que se ha formado durante tres 
@@ -110,7 +110,7 @@ export const HomePage = () => {
                         </p>
                     </div>
                 </div>
-                <div className="absolute -translate-y-14 bg-[url('/img/home/experience-bg.png')] w-full h-[40rem] bg-cover bg-no-repeat bg-center">
+                <div className="absolute -translate-x-72 translate-y-[3.25rem] xl:translate-x-0 xl:-translate-y-14 bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/experience-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[40rem] bg-cover bg-no-repeat bg-center">
                 </div>
                 <div className="text-black flex flex-col xl:flex-row xl:items-start justify-center xl:mt-32 xl:gap-28">
                     {
@@ -121,23 +121,23 @@ export const HomePage = () => {
                 </div>
             </div>
             <div className="mt-5 xl:mt-72 flex flex-col items-center w-full">
-                <h1 className="text-[#2E5AFC] text-2xl xl:text-5xl font-semibold xl:mb-8 py-4 px-28 xl:p-0 text-center">Algunos de nuestros clientes</h1>
+                <h1 className="text-[#2E5AFC] text-2xl xl:text-5xl font-semibold xl:mb-8 py-4 xl:px-28 xl:p-0 text-center">Algunos de <br className="xl:hidden" /> nuestros clientes</h1>
                 <div className="w-full">
                     <ClientsSliderComponent />
                 </div>
             </div>
             <div className="xl:mt-16">
-                <div className="absolute translate-y-[4.25rem] bg-[url('/img/home/contact-bg.png')] w-full h-[45rem] bg-cover bg-no-repeat bg-[-7rem]">
+                <div className="absolute translate-x-[-19.72rem] translate-y-60 xl:translate-y-[4.25rem] bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/contact-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[45rem] bg-cover bg-no-repeat xl:bg-[-7rem]">
                 </div>
                 <div className="xl:mb-44 relative py-6 xl:p-0">
-                    <ButtonComponent custom="flex font-bold xl:gap-1 xl:pt-7 xl:pb-4 px-20 xl:px-[8rem] m-auto">
-                        <img src="/img/clic-icon.png" className="w-5 xl:w-auto" alt="clic-here" />
+                    <ButtonComponent custom="flex font-bold xl:gap-1 py-3 xl:pt-7 xl:pb-4 px-14 xl:px-[8rem] m-auto text-lg">
+                        <img src="/img/clic-icon.png" className="w-6 xl:w-auto" alt="clic-here" />
                         Contáctanos
                     </ButtonComponent>
                 </div>
-                <div className="w-full h-auto flex flex-col xl:flex-row xl:px-28 relative px-10">
+                <div className="w-full h-auto flex flex-col xl:flex-row xl:px-28 relative">
                     <div className="w-full flex justify-center">
-                        <p className="text-black text-base xl:text-2xl xl:w-[39rem] leading-7 xl:leading-10 xl:ml-24">
+                        <p className="text-black text-base xl:text-2xl w-[345px] xl:w-[39rem] leading-7 xl:leading-10 xl:ml-24">
                             <strong>JUST IN TIME</strong> es una 
                             filosofía de la gestión empresarial que 
                             habla de consolidar un vínculo con empresa, 
@@ -155,13 +155,13 @@ export const HomePage = () => {
                             convierta la necesidad en una solución.
                         </p>
                     </div>
-                    <div className="w-full flex xl:justify-center mt-5 xl:m-0 relative">
+                    <div className="w-full flex xl:justify-center ml-6 mt-5 xl:m-0 relative">
                         <img src="/img/home/just-in-time.png" className="w-80 xl:w-[476px] xl:absolute xl:-top-5" alt="Just In Time" />
                     </div>
                 </div>
             </div>
-            <div className="mt-5 xl:mt-40 w-full p-11 bg-gradient-to-br xl:bg-gradient-to-br from-[#2E5AFC] to-[#0e2269] flex items-center justify-center">
-                    <p className="text-base xl:text-2xl xl:w-[1364px] xl:leading-10">
+            <div className="mt-5 xl:mt-40 w-full py-11 bg-gradient-to-br xl:bg-gradient-to-br from-[#2E5AFC] to-[#0e2269] flex items-center justify-center">
+                    <p className="text-base xl:text-2xl w-[345px] xl:w-[1364px] xl:leading-10">
                         Cada ezlabon existe para mantener la cadena en 
                         unidad y lograr comunicarla con sus dos extremos. 
                         Somos el ezlabon dedicado a entender cada parte 

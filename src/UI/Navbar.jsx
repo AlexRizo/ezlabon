@@ -5,7 +5,7 @@ export const Navbar = () => {
         <header className="w-full flex justify-between items-center px-8 py-4 xl:px-28 xl:py-6 text-white absolute">
             <nav>
                 <NavLink to={'/'}>
-                    <img src="/img/navbar/ezlabon-navbar.png" className="w-40 xl:w-auto" alt="Ezlabon" />
+                    <img src="/img/navbar/ezlabon-navbar.png" className="w-44 xl:w-auto" alt="Ezlabon" />
                 </NavLink>
             </nav>
             <nav 
