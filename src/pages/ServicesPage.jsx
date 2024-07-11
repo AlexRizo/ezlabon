@@ -98,7 +98,7 @@ const teamData = [
 export const ServicesPage = () => {
     return (
         <>
-            <IndexComponent title='Servicios' custom='uppercase' img='custom-bg-servicios-page' black='bg-black/30' />
+            <IndexComponent title='Servicios' custom='uppercase xl:capitalize' img='custom-bg-servicios-page' black='bg-black/30' />
         
             <ServicesComponent services={ services1 } />
 
