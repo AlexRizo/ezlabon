@@ -30,7 +30,7 @@ export const HomePage = () => {
         <>
             <div className="w-full h-screen flex flex-col items-center bg-[url('/img/home/bg-home-mobile.jpg')] xl:bg-[url('/img/home/bg-home.jpg')] bg-no-repeat bg-cover bg-right xl:bg-center">
                 <div className="flex flex-col h-full w-full items-end justify-center text-center">
-                    <span className="flex flex-col items-center justify-center mt-44 xl:mt-28 mr-10 xl:mr-80">
+                    <span className="flex flex-col items-center justify-center mt-20 xl:mt-28 mr-10 xl:mr-80">
                         <p className="xl:text-3xl">
                             Especialistas en transporte
                         </p>
@@ -54,7 +54,7 @@ export const HomePage = () => {
                     </span>
                 </div>
                 <div className="flex flex-col h-full w-full items-start justify-center text-center">
-                    <span className="flex flex-col items-center justify-center ml-[4.5rem] xl:ml-60 mb-40">
+                    <span className="flex flex-col items-center justify-center ml-[4.5rem] xl:ml-60 mb-16">
                         <div className="xl:absolute xl:translate-x-60 xl:-translate-y-44">
                             <div className="hidden xl:block">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="447.25" height="209.474" viewBox="0 0 447.25 209.474">
@@ -83,7 +83,7 @@ export const HomePage = () => {
                 //? ButtonComponent puede recibir un { children } y 
                 //? { content }, pero sólo puede usar uno de los 2 
                 }
-                <NavLink to={"/servicios"} className="absolute bottom-5 xl:-bottom-14 w-full xl:w-auto px-4 xl:p-0">
+                <NavLink to={"/servicios"} className="absolute bottom-6 xl:-bottom-14 w-full xl:w-auto px-4 xl:p-0">
                     <ButtonComponent custom='flex justify-center gap-1 pt-3 xl:pt-7 xl:pb-5 px-0 w-full xl:w-auto text-sm'>
                         <img src="/img/clic-icon.png" className="w-5 xl:w-auto" alt="clic-here" />
                         Conoce más de nuestros <strong>servicios</strong>
@@ -130,7 +130,7 @@ export const HomePage = () => {
                 <div className="absolute translate-x-[-19.72rem] translate-y-60 xl:translate-y-[4.25rem] bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/contact-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[45rem] bg-cover bg-no-repeat xl:bg-[-7rem]">
                 </div>
                 <div className="xl:mb-44 relative py-6 xl:p-0">
-                    <ButtonComponent custom="flex font-bold xl:gap-1 py-3 xl:pt-7 xl:pb-4 px-14 xl:px-[8rem] m-auto text-lg">
+                    <ButtonComponent custom="flex font-bold xl:gap-1 py-3 xl:pt-7 xl:pb-4 px-16 xl:px-[8rem] m-auto text-lg">
                         <img src="/img/clic-icon.png" className="w-6 xl:w-auto" alt="clic-here" />
                         Contáctanos
                     </ButtonComponent>

@@ -28,16 +28,16 @@ export const ContactoPage = () => {
 
                     <div className='flex flex-col gap-2 xl:gap-4 text-sm xl:text-xl'>
                         <h2 className='text-[#2E5AFC] text-lg xl:text-2xl leading-none xl:leading-normal font-semibold'>Detalles de solicitud <br className='xl:hidden' /> de transporte:</h2>
-                        <input
+                        {/* <input
                             className='hidden xl:block placeholder:opacity-95 py-3 px-6 xl:p-4 text-black font-normal'
                             type="number"
                             name="cantidad"
                             placeholder='Número de contenedores o plataformas para carga suelta:'
                             required
-                        />
+                        /> */}
                         <textarea 
                             name="cantidad" 
-                            id="cantidad"
+                            id="cantidad-m"
                             className='xl:hidden placeholder:opacity-95 py-1 px-3 xl:p-4 text-black font-normal resize-none'
                             type="number"
                             placeholder='Número de contenedores o plataformas para carga suelta:'

@@ -1,4 +1,4 @@
-import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline"
+import { EnvelopeIcon } from "@heroicons/react/24/outline"
 import { NavLink } from "react-router-dom"
 import { PhoneOutlinedIcon } from "../icons"
 

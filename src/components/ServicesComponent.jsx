@@ -176,7 +176,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                         </div>
                         <div className='bg-white rounded-full p-3'>
                             <div className="rounded-full w-[175px] h-[175px] bg-white overflow-hidden relative">
-                                <div className={`w-full h-full absolute ${ services[3].img } bg-cover bg-no-repeat ${ services[3].custom }`}></div>
+                                <div className={`w-full h-full absolute ${ services[3].img } bg-cover bg-no-repeat bg-top`}></div>
                             </div>
                         </div>
                     </div>
@@ -252,14 +252,14 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                         </div>
                         <div className='bg-white rounded-full p-3'>
                             <div className="rounded-full w-[175px] h-[175px] bg-white overflow-hidden relative">
-                                <div className={`w-full h-full absolute bg-[url('/img/services/almacenamiento.jpg')] bg-cover bg-no-repeat ${ services[3].custom }`}></div>
+                                <div className={`w-full h-full absolute custom-bg-almacenamiento bg-cover bg-no-repeat`}></div>
                             </div>
                         </div>
                     </div>
                     <div className='flex flex-row-reverse items-center absolute z-[1] text-sm top-0 translate-y-[42.50rem] -translate-x-4' >
                         <div className='bg-white rounded-full p-3'>
                             <div className="rounded-full w-[175px] h-[175px] bg-white overflow-hidden relative">
-                                <div className={`w-full h-full absolute bg-[url('/img/services/exceso.jpg')] bg-cover bg-no-repeat ${ services[2].custom }`}></div>
+                                <div className={`w-full h-full absolute custom-bg-exceso bg-cover bg-no-repeat bg-bottom`}></div>
                             </div>
                         </div>
                         <div className="rotate-180">

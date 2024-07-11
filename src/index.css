@@ -41,10 +41,14 @@ body {
 }
 
 .custom-bg-almacenamiento {
-    background-image: url('/img/services/almacenamiento.jpg');
+    background-image: url('/img/services/almacenamiento-mobile.jpg');
 }
 
-
+@media (min-width: 1280px) {
+    .custom-bg-almacenamiento {
+        background-image: url('/img/services/almacenamiento.jpg');
+    }
+}
 
 .custom-bg-consolidacion {
     background-image: url('/img/services/consolidacion-mobile.jpg');
@@ -57,7 +61,13 @@ body {
 }
 
 .custom-bg-exceso {
-    background-image: url('/img/services/exceso.jpg');
+    background-image: url('/img/services/exceso-mobile.jpg');
+}
+
+@media (min-width: 1280px) {
+    .custom-bg-exceso {
+        background-image: url('/img/services/exceso.jpg');
+    }
 }
 
 .custom-bg-servicios-page {
