@@ -104,7 +104,7 @@ export const ServicesPage = () => {
 
             <div className='mt-16 hidden xl:block'>
                 <div className='w-full h-28 bg-[#F5F5F5]'></div>
-                <div className="absolute translate-y-56 xl:bg-[url('/img/home/experience-bg.png')] w-full h-[40rem] bg-cover bg-no-repeat bg-center z-10"></div>
+                <div className="absolute -translate-x-20 translate-y-14 xl:bg-[url('/img/home/experience-bg-2.png')] w-[2125px] h-[820px] bg-cover bg-no-repeat rotate-[4deg] z-10"></div>
                 <ServicesComponent title={ false } services={ services2 } bg="bg-half-gradient-2" >
                     <div className='absolute w-full h-2/4 bg-[#F5F5F5] z-20 top-0'></div>
                 </ServicesComponent>

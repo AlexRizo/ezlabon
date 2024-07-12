@@ -24,7 +24,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             </div>
                         </div>
                     </div>
-                    <div className='flex flex-col items-center relative z-40 gap-3 text-xl' >
+                    <div className='flex flex-col items-center relative z-40 gap-3 text-2xl' >
                         <div className='bg-white rounded-full p-7'>
                             <div className="rounded-full w-[450px] h-[450px] bg-white overflow-hidden relative">
                                 <div className={`w-full h-full absolute ${services[2].img} bg-cover bg-no-repeat ${ services[2].custom }`}></div>

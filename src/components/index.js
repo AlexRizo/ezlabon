@@ -5,3 +5,4 @@ export * from './ServicesComponent';
 export * from './EquipoComponent';
 export * from './IndexComponent';
 export * from './ModalComponent';
+export * from './BgLinesComponent';
