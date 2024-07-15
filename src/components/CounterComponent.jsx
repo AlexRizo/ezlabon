@@ -1,11 +1,16 @@
 import React from 'react'
+import { useCounter } from '../helpers/counter';
 
-export const CounterComponent = ({ counter = '1000', text = '', subText = '' }) => {
+export const CounterComponent = ({ counter = '1000', text = '', subText = '', interval = 80 }) => {
+    const { init, count } = useCounter();
+
+    init({ limit: counter, interval });
+    
     return (
         <div className="flex flex-col items-center justify-center gap-2">
             <p>
                 <span className='text-8xl text-[#2E5AFC]'>+</span>
-                <span className='font-medium  text-7xl'>{ counter }</span>
+                <span className='font-medium  text-7xl'>{ count }</span>
             </p>
             <div className="hidden xl:block">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14.654" height="82.288" viewBox="0 0 14.654 82.288">

@@ -1,35 +1,42 @@
 import { NavLink } from "react-router-dom"
 import { ButtonComponent, ClientsSliderComponent, CounterComponent } from "../components"
-
-const counterData = [
-    {
-        counter: 50,
-        text: 'Años de experiencia',
-        subText: null
-    },
-    {
-        counter: '1,500',
-        text: 'Clientes satisfechos',
-        subText: null
-    },
-    {
-        counter: '2,100',
-        text: 'Entregas en 2023',
-        subText: '(contenedores y carga suelta)'
-    },
-    {
-        counter: 3.2,
-        text: 'Millones de kilómetros ',
-        subText: 'recorridos en 2023'
-    }
-]
+import { useCounter } from "../helpers/counter"
 
 export const HomePage = () => {
+    const { init, count } = useCounter();
+
+    
+    const counterData = [
+        {
+            counter: 50,
+            text: 'Años de experiencia',
+            subText: null,
+            interval: 30
+        },
+        {
+            counter: 1500,
+            text: 'Clientes satisfechos',
+            subText: null,
+            interval: 2
+        },
+        {
+            counter: 2100,
+            text: 'Entregas en 2023',
+            subText: '(contenedores y carga suelta)',
+            interval: 1
+        },
+        {
+            counter: 3.2,
+            text: 'Millones de kilómetros ',
+            subText: 'recorridos en 2023',
+            interval: 80
+        }
+    ];
 
     return (
         <>
             <div className="w-full h-screen flex flex-col items-center bg-[url('/img/home/bg-home-mobile.jpg')] xl:bg-[url('/img/home/bg-home.jpg')] bg-no-repeat bg-cover bg-right xl:bg-center">
-                <div className="flex flex-col h-full w-full items-end justify-center text-center">
+                <div className="hidden flex-col h-full w-full items-end justify-center text-center">
                     <span className="flex flex-col items-center justify-center mt-20 xl:mt-28 mr-10 xl:mr-80">
                         <p className="xl:text-3xl">
                             Especialistas en transporte
@@ -53,7 +60,7 @@ export const HomePage = () => {
                         </div>
                     </span>
                 </div>
-                <div className="flex flex-col h-full w-full items-start justify-center text-center">
+                <div className="hidden flex-col h-full w-full items-start justify-center text-center">
                     <span className="flex flex-col items-center justify-center ml-[4.5rem] xl:ml-60 mb-16">
                         <div className="xl:absolute xl:translate-x-60 xl:-translate-y-44">
                             <div className="hidden xl:block">
@@ -93,12 +100,12 @@ export const HomePage = () => {
 
             <div className="">
                 <h1 className="text-3xl xl:text-5xl text-[#2E5AFC] font-semibold text-center py-5 xl:py-12 xl:mt-12">Experiencia</h1>
-                <div className="flex flex-col xl:flex-row items-center justify-center w-full xl:w-[85rem] xl:h-[41rem] xl:mx-auto">
-                    <div className="bg-gray-100 w-full h-full flex items-center justify-center xl:px-10 py-16">                            
-                        <img src="/img/fletera-coliman.png" className="w-64 xl:w-auto" alt="Fletera Coliman" />
+                <div className="flex flex-col xl:flex-row items-center justify-center w-full xl:w-[1200px] xl:h-[650px] xl:mx-auto">
+                    <div className="bg-gray-100 w-full h-full flex items-center justify-center py-16">                            
+                        <img src="/img/fletera-coliman.png" className="w-64 xl:w-[300px]" alt="Fletera Coliman" />
                     </div>
-                    <div className="w-full h-full flex items-center justify-center bg-gradient-to-tr from-[#172D7E] to-[#2E5AFC] xl:px-10 py-20">
-                        <p className="text-base xl:text-2xl xl:pl-7 xl:pr-6 leading-6 xl:leading-10 w-[340px] xl:w-auto">
+                    <div className="w-full h-full flex items-center justify-center bg-gradient-to-tr from-[#172D7E] to-[#2E5AFC]">
+                        <p className="text-base xl:text-xl leading-6 xl:leading-[2.25rem] w-[340px] xl:w-[456px]">
                             <strong>ezlabon es la evolución de Fletera Coliman</strong>, una 
                             empresa con un trayecto de <strong>más de 50 años</strong>. Un 
                             negocio familiar que se ha formado durante tres 
@@ -115,7 +122,7 @@ export const HomePage = () => {
                 <div className="text-black flex flex-col xl:flex-row xl:items-start justify-center xl:mt-32 xl:gap-28">
                     {
                         counterData.map((data, i) => (
-                            <CounterComponent key={ i } counter={ data.counter } text={ data.text } subText={ data.subText } />
+                            <CounterComponent key={ i } counter={ data.counter } text={ data.text } subText={ data.subText } interval={data.interval} />
                         ))
                     }
                 </div>

@@ -1,27 +1,44 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { NavLink } from "react-router-dom"
+import { EzlabonIcon } from "../icons";
 
 export const Navbar = () => {
     const [openNavbar, setOpenNavbar] = useState(false);
+
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const isScrolled = window.scrollY > 50; // Cambiar este valor según la posición de scroll deseada
+        setScrolled(isScrolled);
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      // Limpieza del event listener al desmontar el componente
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
     
     return (
-        <header className="w-full flex justify-between items-center px-8 py-4 xl:px-28 xl:py-6 text-white absolute">
+        <header className={` w-full flex justify-between items-center px-8 py-4 xl:px-24 xl:py-5 text-white fixed ${ scrolled && 'bg-black/30 backdrop-blur-md' } transition-colors z-[1000]`}>
             <nav>
                 <NavLink to={'/'}>
-                    <img src="/img/navbar/ezlabon-navbar.png" className="w-44 xl:w-auto" alt="Ezlabon" />
+                    <EzlabonIcon className="w-[240px] h-min" />
                 </NavLink>
             </nav>
             <nav 
-                className={`${ openNavbar ? 'flex' : 'hidden' } xl:flex flex-col xl:flex-row gap-4 xl:gap-36 text-lg xl:text-2xl absolute z-20 xl:static bg-blue-200/60 xl:bg-[transparent] backdrop-blur-sm xl:backdrop-blur-none text-[#2E5AFC] xl:text-white top-14 right-8 xl:top-[initial] xl:right-[initial] px-8 py-6 xl:p-0`}
+                className={`${ openNavbar ? 'flex' : 'hidden' } xl:flex flex-col xl:flex-row gap-4 xl:gap-36 text-lg xl:text-[22px] absolute z-20 xl:static bg-blue-200/60 xl:bg-[transparent] backdrop-blur-sm xl:backdrop-blur-none text-[#2E5AFC] xl:text-white top-14 right-8 xl:top-[initial] xl:right-[initial] px-8 py-6 xl:p-0`}
                 onClick={ () => setOpenNavbar(false)}
             >
-                <NavLink to={ '/' } className={({ isActive }) => `${ isActive && 'font-bold'}`} >
+                <NavLink to={ '/' } className={({ isActive }) => `${ isActive && 'font-bold'} hover:font-bold text-center xl:w-[calc(88px+0.25rem)]`} >
                     Inicio
                 </NavLink>
-                <NavLink to={ '/servicios' } className={({ isActive }) => `${ isActive && 'font-bold'}`} >
+                <NavLink to={ '/servicios' } className={({ isActive }) => `${ isActive && 'font-bold'} hover:font-bold text-center xl:w-[calc(88px+0.25rem)]`} >
                     Servicios
                 </NavLink>
-                <NavLink to={ '/contacto' } className={({ isActive }) => `${ isActive && 'font-bold'}`} >
+                <NavLink to={ '/contacto' } className={({ isActive }) => `${ isActive && 'font-bold'} hover:font-bold text-center xl:w-[calc(88px+0.25rem)]`} >
                     Contacto
                 </NavLink>
             </nav>

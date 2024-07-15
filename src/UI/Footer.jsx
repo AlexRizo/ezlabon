@@ -1,6 +1,6 @@
 import { EnvelopeIcon } from "@heroicons/react/24/outline"
 import { NavLink } from "react-router-dom"
-import { PhoneOutlinedIcon } from "../icons"
+import { EzlabonIcon, PhoneOutlinedIcon } from "../icons"
 
 export const Footer = () => {
     return (
@@ -17,7 +17,7 @@ export const Footer = () => {
                 </NavLink>
             </nav>
             <div className="order-1 xl:order-2">
-                <img src="/img/footer/ezlabon.png" alt="Ezlabon" />
+                <EzlabonIcon fill="#2E5AFC" className="w-[215px]" />
             </div>
             <nav className="flex xl:flex-col gap-7 order-3 items-center">
                 <a href="tel:+520000000000">
