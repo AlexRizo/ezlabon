@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom"
 import { ButtonComponent, ClientsSliderComponent, CounterComponent } from "../components"
 import { useCounter } from "../helpers/counter"
+import { PointerIcon } from "../icons";
 
 export const HomePage = () => {
     const { init, count } = useCounter();
@@ -91,9 +92,9 @@ export const HomePage = () => {
                 //? { content }, pero sólo puede usar uno de los 2 
                 }
                 <NavLink to={"/servicios"} className="absolute bottom-6 xl:-bottom-14 w-full xl:w-auto px-4 xl:p-0">
-                    <ButtonComponent custom='flex justify-center gap-1 pt-3 xl:pt-7 xl:pb-5 px-0 w-full xl:w-auto text-sm'>
-                        <img src="/img/clic-icon.png" className="w-5 xl:w-auto" alt="clic-here" />
-                        Conoce más de nuestros <strong>servicios</strong>
+                    <ButtonComponent custom='flex justify-center gap-3 pt-3 xl:pt-7 xl:pb-5 px-0 w-full xl:w-auto text-sm'>
+                        <PointerIcon className="rotate-[30deg]" />
+                        <p>Conoce más de nuestros <strong>servicios</strong></p>
                     </ButtonComponent>
                 </NavLink>
             </div>
@@ -117,9 +118,9 @@ export const HomePage = () => {
                         </p>
                     </div>
                 </div>
-                <div className="absolute -translate-x-72 translate-y-[3.25rem] xl:translate-x-0 xl:-translate-y-14 bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/experience-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[40rem] bg-cover bg-no-repeat bg-center">
+                <div className="absolute -translate-x-72 translate-y-[3.25rem] xl:translate-x-0 xl:-translate-y-20 bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/experience-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[40rem] bg-cover bg-no-repeat bg-center">
                 </div>
-                <div className="text-black flex flex-col xl:flex-row xl:items-start justify-center xl:mt-32 xl:gap-28">
+                <div className="text-black flex flex-col xl:flex-row xl:items-start justify-center xl:mt-32 xl:gap-10 container m-auto xl:px-24">
                     {
                         counterData.map((data, i) => (
                             <CounterComponent key={ i } counter={ data.counter } text={ data.text } subText={ data.subText } interval={data.interval} />
@@ -128,23 +129,23 @@ export const HomePage = () => {
                 </div>
             </div>
             <div className="mt-5 xl:mt-72 flex flex-col items-center w-full">
-                <h1 className="text-[#2E5AFC] text-2xl xl:text-5xl font-semibold xl:mb-8 py-4 xl:px-28 xl:p-0 text-center">Algunos de <br className="xl:hidden" /> nuestros clientes</h1>
+                <h1 className="text-[#2E5AFC] text-2xl xl:text-4xl font-semibold xl:mb-8 py-4 xl:px-28 xl:p-0 text-center">Algunos de <br className="xl:hidden" /> nuestros clientes</h1>
                 <div className="w-full">
                     <ClientsSliderComponent />
                 </div>
             </div>
             <div className="xl:mt-16">
-                <div className="absolute translate-x-[-19.72rem] translate-y-60 xl:translate-y-[4.25rem] bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/contact-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[45rem] bg-cover bg-no-repeat xl:bg-[-7rem]">
+                <div className="absolute translate-x-[-19.72rem] xl:translate-x-0 translate-y-60 xl:translate-y-[4.25rem] bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/contact-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[45rem] bg-cover bg-no-repeat xl:bg-[-7rem]">
                 </div>
                 <div className="xl:mb-44 relative py-6 xl:p-0">
-                    <ButtonComponent custom="flex font-bold xl:gap-1 py-3 xl:pt-7 xl:pb-4 px-16 xl:px-[8rem] m-auto text-lg">
-                        <img src="/img/clic-icon.png" className="w-6 xl:w-auto" alt="clic-here" />
+                    <ButtonComponent custom="flex font-bold xl:gap-3 py-3 xl:pt-7 xl:pb-4 px-16 xl:px-[7rem] m-auto text-lg">
+                    <PointerIcon className="rotate-[30deg] w-[26px]" />
                         Contáctanos
                     </ButtonComponent>
                 </div>
-                <div className="w-full h-auto flex flex-col xl:flex-row xl:px-28 relative">
+                <div className="w-full h-auto flex flex-col xl:flex-row xl:px-28 relative container m-auto">
                     <div className="w-full flex justify-center">
-                        <p className="text-black text-base xl:text-2xl w-[345px] xl:w-[39rem] leading-7 xl:leading-10 xl:ml-24">
+                        <p className="text-black text-base xl:text-xl w-[345px] xl:w-[32rem] leading-7 xl:leading-9 ">
                             <strong>JUST IN TIME</strong> es una 
                             filosofía de la gestión empresarial que 
                             habla de consolidar un vínculo con empresa, 
@@ -163,12 +164,12 @@ export const HomePage = () => {
                         </p>
                     </div>
                     <div className="w-full flex xl:justify-center ml-6 mt-5 xl:m-0 relative">
-                        <img src="/img/home/just-in-time.png" className="w-80 xl:w-[476px] xl:absolute xl:-top-5" alt="Just In Time" />
+                        <img src="/img/home/just-in-time.png" className="w-80 xl:w-[430px] xl:absolute xl:-top-1" alt="Just In Time" />
                     </div>
                 </div>
             </div>
             <div className="mt-5 xl:mt-40 w-full py-11 bg-gradient-to-br xl:bg-gradient-to-br from-[#2E5AFC] to-[#0e2269] flex items-center justify-center">
-                    <p className="text-base xl:text-2xl w-[345px] xl:w-[1364px] xl:leading-10">
+                    <p className="text-base xl:text-xl w-[345px] xl:w-[1100px] xl:leading-9">
                         Cada ezlabon existe para mantener la cadena en 
                         unidad y lograr comunicarla con sus dos extremos. 
                         Somos el ezlabon dedicado a entender cada parte 

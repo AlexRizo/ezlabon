@@ -18,7 +18,7 @@ const services1 = {
         p1: 'Traslados locales',
         p2: '',
         img: 'custom-bg-traslados-locales',
-        custom: 'bg-[-3rem] xl:bg-[-9rem]'
+        custom: 'bg-[-3rem] xl:bg-[-6rem] xl:scale-[1.1]'
     }
 }
 
@@ -27,13 +27,13 @@ const services2 = {
         p1: 'Consolidación y desconsolidación',
         p2: 'de mercancía',
         img: 'custom-bg-consolidacion',
-        custom: ''
+        custom: 'xl:bg-[-8.50rem]'
     },
     2: {
         p1: 'Almacenaje bajo',
         p2: 'techo y aire libre',
         img: 'custom-bg-almacenamiento',
-        custom: 'bg-center'
+        custom: 'bg-center xl:bg-[-7rem] xl:scale-[1.1]'
     },
     3: {
         p1: 'Servicio especializado con',
@@ -45,50 +45,50 @@ const services2 = {
 
 const teamData = [
     {
-        icon: <TractoCamionIcon className="w-[80px] h-min xl:w-auto xl:h-auto" />,
+        icon: <TractoCamionIcon className="w-[80px] h-min xl:w-[140px] xl:h-min" />,
         title: 'Tracto Camiones',
         p: 'para full y sencillo',
         custom: 'order-1'
     },
     {
-        icon: <PlataformasIcon className="w-[81px] h-min xl:w-auto xl:h-auto" />,
+        icon: <PlataformasIcon className="w-[81px] h-min xl:w-[140px] xl:h-min" />,
         title: 'Plataformas de 40 pies',
         p: <span>para carga suelta y <br className='cl:hidden'/> carga contenerizada</span>,
         custom: 'order-2'
     },
     {
-        icon: <DollysIcon className="w-[90px] h-min xl:w-auto xl:h-auto" />,
-        title: <span>Equipo de <br className='xl:hidden' /> arrastre de dollys</span>,
+        icon: <DollysIcon className="w-[90px] h-min xl:w-[160px] xl:h-min" />,
+        title: <span>Equipo de <br /> arrastre de dollys</span>,
         custom: 'order-7 xl:order-3',
     },
     {
-        icon: <MontacargasIcon className="w-[72px] h-min xl:w-auto xl:h-auto" />,
+        icon: <MontacargasIcon className="w-[72px] h-min xl:w-[130px] xl:h-min" />,
         title: 'Montacargas',
         custom: 'order-3 xl:order-4'
     },
     {
-        icon: <GruaIcon className="w-[81px] h-min xl:w-auto xl:h-auto" />,
+        icon: <GruaIcon className="w-[81px] h-min xl:w-[140px] xl:h-min" />,
         title: 'Grúa',
         custom: 'order-4 xl:order-5'
     },
     {
-        icon: <CamaIcon className="w-[113px] h-min xl:w-auto xl:h-auto" />,
+        icon: <CamaIcon className="w-[113px] h-min xl:w-[210px] xl:h-min" />,
         title: 'Cama baja',
         custom: 'order-9 xl:order-6'
     },
     {
-        icon: <CamionIcon className="w-[91px] h-min xl:w-auto xl:h-auto" />,
+        icon: <CamionIcon className="w-[91px] h-min xl:w-[160px] xl:h-min" />,
         title: 'Camión de volteo',
         custom: 'order-5 xl:order-7'
     },
     {
-        icon: <TallerIcon className="w-[51px] h-min xl:w-auto xl:h-auto" />,
+        icon: <TallerIcon className="w-[51px] h-min xl:w-[70px] xl:h-min" />,
         title: 'Taller completamente equipado',
         p: <span>para el mantenimiento y <br/> cuidado de nuestras unidades</span>,
         custom: 'order-6 xl:order-8'
     },
     {
-        icon: <PlataformaPropiaIcon className="w-[79px] h-min xl:w-auto xl:h-auto" />,
+        icon: <PlataformaPropiaIcon className="w-[79px] h-min xl:w-[140px] xl:h-auto" />,
         title: 'Plataforma propia (ARBA)',
         p: <span>de rastreo satelital y monitoreo <br/> completo de las unidades</span>,
         custom: 'order-8 xl:order-9'
@@ -98,11 +98,11 @@ const teamData = [
 export const ServicesPage = () => {
     return (
         <>
-            <IndexComponent title='Servicios' custom='uppercase xl:capitalize' img='custom-bg-servicios-page' black='bg-black/30' />
+            <IndexComponent title='Servicios' titleCustom="-translate-y-10 translate-x-36" custom='uppercase xl:capitalize' img='custom-bg-servicios-page' black='bg-black/30' />
         
             <ServicesComponent services={ services1 } />
 
-            <div className='mt-16 hidden xl:block'>
+            <div className='mt-16 hidden xl:block xl:relative xl:overflow-hidden xl:h-[960px]'>
                 <div className='w-full h-28 bg-[#F5F5F5]'></div>
                 <div className="absolute -translate-x-20 translate-y-14 xl:bg-[url('/img/home/experience-bg-2.png')] w-[2125px] h-[820px] bg-cover bg-no-repeat rotate-[4deg] z-10"></div>
                 <ServicesComponent title={ false } services={ services2 } bg="bg-half-gradient-2" >
@@ -110,9 +110,9 @@ export const ServicesPage = () => {
                 </ServicesComponent>
             </div>
 
-            <div className='mt-40 container m-auto bg-[#F5F5F5] text-black py-10 xl:py-12'>
+            <div className='container m-auto bg-[#F5F5F5] text-black py-10 xl:py-12'>
                 <h1 className='text-center text-[#2E5AFC] text-3xl xl:m-0 mb-6 xl:text-6xl font-semibold'>Equipo</h1>
-                <div className='grid xl:grid-cols-3 gap-y-6 xl:gap-y-12 grid-cols-2'>
+                <div className='grid xl:grid-cols-3 gap-y-6 xl:gap-y-10 grid-cols-2'>
                     {
                         teamData.map((item, index) => {
                             return (

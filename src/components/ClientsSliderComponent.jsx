@@ -26,52 +26,53 @@ export const ClientsSliderComponent = () => {
                     }}
                     modules={[FreeMode, Navigation]}
                     loop={ true }
-                    className="w-2/3 h-full"
+                    className="w-2/3 h-full px-10"
                 >
                     <div className="swiper-button-prev !text-white !left-0 bg-[#2e5afc] !top-0 h-full flex items-center justify-center !m-0"></div>
                     <div className="swiper-button-next !text-white !right-0 bg-[#2e5afc] !top-0 h-full flex items-center justify-center !m-0" ></div>
                     <SwiperSlide className="flex items-center justify-center">
                         <div className="flex items-center justify-center">
-                            <img src="/img/slider/cocacola-client.png" alt="Coca Cola" />
+                            <CocaColaIcon className="h-min w-[160px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center">
                         <div className="flex items-center justify-center">
-                            <img src="/img/slider/cemex-client.png" alt="Cemex" />
+                            <CemexIcon className="h-min w-[190px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center">
                         <div className="flex items-center justify-center">
-                            <img src="/img/slider/camesa-client.png" alt="Camesa" />
+                            <CamesaIcon className="h-min w-[210px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center">
                         <div className="flex items-center justify-center">
-                            <img src="/img/slider/grupo-mexico-client.png" width="235" alt="Grupo México" />
+                            <GrupoMexicoIcon className="h-min w-[250px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center">
                         <div className="flex items-center justify-center">
-                            <img src="/img/slider/cocacola-client.png" alt="Coca Cola" />
+                            <CocaColaIcon className="h-min w-[160px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center">
                         <div className="flex items-center justify-center">
-                            <img src="/img/slider/cemex-client.png" alt="Cemex" />
+                            <CemexIcon className="h-min w-[190px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center">
                         <div className="flex items-center justify-center">
-                            <img src="/img/slider/camesa-client.png" alt="Camesa" />
+                            <CamesaIcon className="h-min w-[210px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center">
                         <div className="flex items-center justify-center">
-                            <img src="/img/slider/grupo-mexico-client.png" width="235" alt="Grupo México" />
+                            <GrupoMexicoIcon className="h-min w-[250px]" />
                         </div>
                     </SwiperSlide>
                 </Swiper>
             </div>
+
             <div className="bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] grid grid-cols-2 items-center py-28 gap-x-5 gap-y-20 xl:hidden">
                     <div className="m-auto">
                         <CocaColaIcon />

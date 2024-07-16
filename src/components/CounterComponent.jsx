@@ -1,16 +1,47 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import { useCounter } from '../helpers/counter';
 
 export const CounterComponent = ({ counter = '1000', text = '', subText = '', interval = 80 }) => {
     const { init, count } = useCounter();
+    const componentRef = useRef(null);
 
-    init({ limit: counter, interval });
+    const initCounter = () => init({ limit: counter, interval });
+    
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Ejecuta la función cuando el componente es visible
+                    initCounter();
+                }
+                });
+            },
+            {
+                root: null, // El viewport es el root
+                rootMargin: '0px', // Sin margen alrededor del root
+                threshold: 0.5 // Ejecuta la función cuando el 50% del componente es visible
+            }
+        );
+    
+        if (componentRef.current) {
+            observer.observe(componentRef.current);
+        }
+    
+        // Limpia el observador al desmontar el componente
+        return () => {
+            if (componentRef.current) {
+                observer.unobserve(componentRef.current);
+            }
+        };
+      }, []);
+    
     
     return (
-        <div className="flex flex-col items-center justify-center gap-2">
+        <div className="flex flex-col items-center justify-center gap-2 w-full">
             <p>
-                <span className='text-8xl text-[#2E5AFC]'>+</span>
-                <span className='font-medium  text-7xl'>{ count }</span>
+                <span className='text-7xl text-[#2E5AFC]'>+</span>
+                <span className='font-medium  text-7xl'>{ Number.isInteger(count) ? count : count.toFixed(1) }</span>
             </p>
             <div className="hidden xl:block">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14.654" height="82.288" viewBox="0 0 14.654 82.288">
@@ -28,7 +59,7 @@ export const CounterComponent = ({ counter = '1000', text = '', subText = '', in
                     </g>
                 </svg>
             </div>
-            <span className='text-center text-sm xl:text-2xl'>
+            <span ref={ componentRef } className='text-center text-sm xl:text-xl'>
                 <p>{ text }</p>
                 { subText && <p>{ subText }</p> }
             </span>
