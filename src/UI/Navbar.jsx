@@ -29,7 +29,7 @@ export const Navbar = () => {
                 </NavLink>
             </nav>
             <nav 
-                className={`${ openNavbar ? 'flex' : 'hidden' } xl:flex flex-col xl:flex-row gap-4 xl:gap-36 text-lg xl:text-[22px] absolute z-20 xl:static bg-blue-200/60 xl:bg-[none] backdrop-blur-sm xl:backdrop-blur-none text-[#2E5AFC] xl:text-white top-14 right-8 xl:top-[initial] xl:right-[initial] px-8 py-6 xl:p-0`}
+                className={`${ openNavbar ? 'flex' : 'hidden' } xl:flex flex-col xl:flex-row gap-4 xl:gap-36 text-lg xl:text-[22px] absolute z-20 xl:static bg-blue-200/60 xl:bg-[initial] backdrop-blur-sm xl:backdrop-blur-none text-[#2E5AFC] xl:text-white top-14 right-8 xl:top-[initial] xl:right-[initial] px-8 py-6 xl:p-0`}
                 onClick={ () => setOpenNavbar(false)}
             >
                 <NavLink to={ '/' } className={({ isActive }) => `${ isActive && 'font-bold'} hover:font-bold text-center xl:w-[calc(88px+0.25rem)]`} >
