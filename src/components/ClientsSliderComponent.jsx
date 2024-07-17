@@ -125,40 +125,58 @@ export const ClientsSliderComponent = () => {
 
             <div className="bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] grid grid-cols-2 items-center py-28 gap-x-5 gap-y-20 xl:hidden">
                     <div className="m-auto">
-                        <CocaColaIcon />
+                        <CocaColaIcon className="w-[100px] h-min" />
                     </div>
                     <div className="m-auto">
-                        <GrupoMexicoIcon />
+                        <GrupoMexicoIcon className="w-[160px] h-min" />
                     </div>
                     <div className="m-auto">
-                        <TornelIcon />
+                        <TornelIcon className="w-[110px] h-min" />
                     </div>
                     <div className="m-auto">
-                        <ArmaConcretoIcon />
+                        <ArmaConcretoIcon className="w-[120px] h-min" />
                     </div>
                     <div className="m-auto">
-                        <CpcIcon />
+                        <CpcIcon className="w-[70px] h-min" />
                     </div>
                     <div className="m-auto">
-                        <KuehneNagelIcon />
+                        <KuehneNagelIcon className="w-[150px] h-min" />
                     </div>
                     <div className="m-auto">
-                        <CemexIcon />
+                        <CemexIcon className="w-[125px] h-min" />
                     </div>
                     <div className="m-auto">
-                        <CamesaIcon />
+                        <CamesaIcon className="w-[125px] h-min" />
                     </div>
                     <div className="m-auto">
-                        <StanleyIcon />
+                        <StanleyIcon className="w-[115px] h-min" />
                     </div>
                     <div className="m-auto">
-                        <DaltileIcon />
+                        <DaltileIcon className="w-[115px] h-min" />
                     </div>
                     <div className="m-auto">
-                        <HencoIcon />
+                        <HencoIcon className="w-[115px] h-min" />
                     </div>
                     <div className="m-auto">
-                        <MolycopIcon />
+                        <MolycopIcon className="w-[100px] h-min" />
+                    </div>
+                    <div className="m-auto">
+                        <PenolesIcon className="w-[46px] h-min" />
+                    </div>
+                    <div className="m-auto">
+                        <PandGIcon className="w-[60px] h-min" />
+                    </div>
+                    <div className="m-auto">
+                        <IBMEXIcon className="w-[55px] h-min" />
+                    </div>
+                    <div className="m-auto">
+                        <MolIcon className="w-[65px] h-min" />
+                    </div>
+                    <div className="m-auto">
+                        <MexinoxIcon className="w-[75px] h-min" />
+                    </div>
+                    <div className="m-auto">
+                        <MscIcon className="w-[55px] h-min" />
                     </div>
             </div>
         </>
