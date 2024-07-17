@@ -49,7 +49,7 @@ export const HomePage = () => {
                 </NavLink>
             </div>
 
-            <div className="">
+            <div className="relative overflow-hidden">
                 <h1 className="text-3xl xl:text-5xl text-[#2E5AFC] font-semibold text-center py-5 xl:py-12 xl:mt-12">Experiencia</h1>
                 <div className="flex flex-col xl:flex-row items-center justify-center w-full xl:w-[1170px] xl:h-[630px] xl:mx-auto">
                     <div className="bg-gray-100 w-full h-full flex items-center justify-center py-16">                            
