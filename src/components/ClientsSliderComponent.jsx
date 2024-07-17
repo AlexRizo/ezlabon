@@ -5,7 +5,7 @@ import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/free-mode"
 
-import { ArmaConcretoIcon, CamesaIcon, CemexIcon, CocaColaIcon, CpcIcon, GrupoMexicoIcon, KuehneNagelIcon, TornelIcon, StanleyIcon, DaltileIcon, HencoIcon, MolycopIcon } from "../icons"
+import { ArmaConcretoIcon, CamesaIcon, CemexIcon, CocaColaIcon, CpcIcon, GrupoMexicoIcon, KuehneNagelIcon, TornelIcon, StanleyIcon, DaltileIcon, HencoIcon, MolycopIcon, PenolesIcon, PandGIcon, IBMEXIcon, MolIcon, MexinoxIcon, MscIcon } from "../icons"
 
 export const ClientsSliderComponent = () => {
 
@@ -26,48 +26,98 @@ export const ClientsSliderComponent = () => {
                     }}
                     modules={[FreeMode, Navigation]}
                     loop={ true }
-                    className="w-2/3 h-full px-10"
+                    className="w-[70%] h-full px-14"
                 >
                     <div className="swiper-button-prev !text-white !left-0 bg-[#2e5afc] !top-0 h-full flex items-center justify-center !m-0"></div>
                     <div className="swiper-button-next !text-white !right-0 bg-[#2e5afc] !top-0 h-full flex items-center justify-center !m-0" ></div>
-                    <SwiperSlide className="flex items-center justify-center">
+                    <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
                             <CocaColaIcon className="h-min w-[160px]" />
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="flex items-center justify-center">
+                    <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
                             <CemexIcon className="h-min w-[190px]" />
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="flex items-center justify-center">
+                    <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
                             <CamesaIcon className="h-min w-[210px]" />
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="flex items-center justify-center">
+                    <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
                             <GrupoMexicoIcon className="h-min w-[250px]" />
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="flex items-center justify-center">
+                    <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <CocaColaIcon className="h-min w-[160px]" />
+                            <PenolesIcon className="h-min w-[60px]" />
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="flex items-center justify-center">
+                    <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <CemexIcon className="h-min w-[190px]" />
+                            <PandGIcon className="h-min w-[80px]" />
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="flex items-center justify-center">
+                    <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <CamesaIcon className="h-min w-[210px]" />
+                            <TornelIcon className="h-min w-[170px]" />
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="flex items-center justify-center">
+                    <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <GrupoMexicoIcon className="h-min w-[250px]" />
+                            <StanleyIcon className="h-min w-[180px]" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="flex items-center justify-center ">
+                        <div className="flex items-center justify-center">
+                            <DaltileIcon className="h-min w-[180px]" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="flex items-center justify-center ">
+                        <div className="flex items-center justify-center">
+                            <ArmaConcretoIcon className="h-min w-[200px]" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="flex items-center justify-center ">
+                        <div className="flex items-center justify-center">
+                            <IBMEXIcon className="h-min w-[80px]" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="flex items-center justify-center ">
+                        <div className="flex items-center justify-center">
+                            <MolIcon className="h-min w-[90px]" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="flex items-center justify-center ">
+                        <div className="flex items-center justify-center">
+                            <CpcIcon className="h-min w-[100px]" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="flex items-center justify-center ">
+                        <div className="flex items-center justify-center">
+                            <HencoIcon className="h-min w-[175px]" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="flex items-center justify-center ">
+                        <div className="flex items-center justify-center">
+                            <MolycopIcon className="h-min w-[155px]" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="flex items-center justify-center ">
+                        <div className="flex items-center justify-center">
+                            <KuehneNagelIcon className="h-min w-[250px]" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="flex items-center justify-center ">
+                        <div className="flex items-center justify-center">
+                            <MexinoxIcon className="h-min w-[105px]" />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="flex items-center justify-center ">
+                        <div className="flex items-center justify-center">
+                            <MscIcon className="h-min w-[70px]" />
                         </div>
                     </SwiperSlide>
                 </Swiper>

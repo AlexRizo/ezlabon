@@ -47,7 +47,7 @@ export const ContactoPage = () => {
                         <input className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal' type="text" name="peso" placeholder='Peso de mercancía:' required />
                         <input className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal' type="text" name="carga" placeholder='¿Dónde se carga?' required />
                         <input className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal' type="text" name="descarga" placeholder='¿Dónde se descarga?' required />
-                        <textarea className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal resize-none' name="servicios" rows="3" placeholder='¿Qué otro servicio(s) necesitas?'></textarea>
+                        <textarea className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal resize-none' name="servicios" rows="3" placeholder='¿Qué otro(s) servicio(s) necesitas?'></textarea>
                         <textarea className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal resize-none' name="detalles" rows="3" placeholder='¿Hay algún otro detalle que quieras agregar?'></textarea>
                     </div>
                     <div className='flex items-center justify-center mb-6 xl:mb-0 xl:mt-5'>
@@ -71,21 +71,21 @@ export const ContactoPage = () => {
                     />
                 </div>
                 <div className="xl:px-40 px-10 xl:pb-20 mb-7 xl:m-0">
-                    <h1 className='text-lg leading-5 xl:leading-normal xl:text-2xl text-[#2E5AFC] font-bold my-5 xl:mb-16'>Con base en Manzanillo y Colima, con cobertura en todo el <br className='xl:hidden' /> territorio Nacional.</h1>
+                    <h1 className='text-lg leading-5 xl:leading-normal xl:text-xl text-[#2E5AFC] font-bold my-5 xl:mb-16'>Con base en Manzanillo y Colima, con cobertura en todo el <br className='xl:hidden' /> territorio Nacional.</h1>
                     <div className='flex flex-col gap-3 xl:gap-10'>
-                        <div className='text-sm xl:text-2xl flex items-center gap-3 xl:gap-5 text-black'>
+                        <div className='text-sm xl:text-xl flex items-center gap-3 xl:gap-5 text-black'>
                             <div className='w-[21px] xl:w-[40px] flex justify-center'>
-                                <UbicationIcon className="w-[10px] xl:w-auto" />
+                                <UbicationIcon className="w-[10px] xl:w-[18px]" />
                             </div>
                             <p>KM 220 carretera Jiquilpan-Manzanillo</p>
                         </div>
-                        <div className='text-sm xl:text-2xl flex items-center gap-3 xl:gap-5 text-black'>
+                        <div className='text-sm xl:text-xl flex items-center gap-3 xl:gap-5 text-black'>
                             <div className='w-[21px] xl:w-[40px] flex justify-center'>
-                                <PhoneIcon className="w-[15px] xl:w-auto" />
+                                <PhoneIcon className="w-[15px] xl:w-[27px]" />
                             </div>
                             <p>312-307-3620 ext 1358</p>
                         </div>
-                        <div className='text-sm xl:text-2xl flex items-center gap-3 xl:gap-5 text-black'>
+                        <div className='text-sm xl:text-xl flex items-center gap-3 xl:gap-5 text-black'>
                             <div className='w-[21px] xl:w-[40px] flex justify-center'>
                                 <WhatsAppIcon className="w-[20px] xl:w-[36px] h-min" />
                             </div>
@@ -95,18 +95,18 @@ export const ContactoPage = () => {
                             <div className='flex flex-col gap-10'>
                                 <div className="flex items-center gap-3 xl:gap-5 text-black" >
                                     <div className='w-[21px] xl:w-[40px] flex justify-center'>
-                                        <MailIcon className="w-[21px] xl:w-auto" />
+                                        <MailIcon className="w-[21px] xl:w-[38px]" />
                                     </div>
-                                    <span className='text-sm xl:text-2xl'>
+                                    <span className='text-sm xl:text-xl'>
                                         <h1 className='text-[#2E5AFC] font-bold'>contacto:</h1>
                                         <p>administracion@ezlabon.mx</p>
                                     </span>
                                 </div>
                                 <div className="flex items-center just gap-5 text-black" >
                                     <div className='w-[21px] xl:w-[40px] flex justify-center'>
-                                        <MailIcon className="w-[21px] xl:w-auto" />
+                                        <MailIcon className="w-[21px] xl:w-[38px]" />
                                     </div>
-                                    <span className='text-sm xl:text-2xl'>
+                                    <span className='text-sm xl:text-xl'>
                                         <h1 className='text-[#2E5AFC] font-bold'>cotizaciones:</h1>
                                         <p>rbayardo@ezlabon.mx</p>
                                     </span>
@@ -115,18 +115,18 @@ export const ContactoPage = () => {
                             <div className='flex flex-col xl:gap-10'>
                                 <div className="flex items-center just gap-5 text-black" >
                                     <div className='w-[21px] xl:w-[40px] flex justify-center'>
-                                        <MailIcon className="w-[21px] xl:w-auto" />
+                                        <MailIcon className="w-[21px] xl:w-[38px]" />
                                     </div>
-                                    <span className='text-2xl'>
+                                    <span className='text-xl'>
                                         <h1 className='text-[#2E5AFC] font-bold'>embarques:</h1>
                                         <p>trafico@ezlabon.mx</p>
                                     </span>
                                 </div>
                                 <div className="flex items-center just gap-5 text-black" >
                                     <div className='w-[21px] xl:w-[40px] flex justify-center'>
-                                        <MailIcon className="w-[21px] xl:w-auto" />
+                                        <MailIcon className="w-[21px] xl:w-[38px]" />
                                     </div>
-                                    <span className='text-2xl'>
+                                    <span className='text-xl'>
                                         <h1 className='text-[#2E5AFC] font-bold'>gerente admin:</h1>
                                         <p>heriberto@ezlabon.mx</p>
                                     </span>

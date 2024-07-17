@@ -25,20 +25,20 @@ export const Navbar = () => {
         <header className={` w-full flex justify-between items-center px-8 py-4 xl:px-24 xl:py-5 text-white fixed ${ scrolled && 'bg-black/30 backdrop-blur-md' } transition-colors z-[1000]`}>
             <nav>
                 <NavLink to={'/'}>
-                    <EzlabonIcon className="w-[240px] h-min" />
+                    <EzlabonIcon className="w-[230px] h-min" />
                 </NavLink>
             </nav>
             <nav 
-                className={`${ openNavbar ? 'flex' : 'hidden' } xl:flex flex-col xl:flex-row gap-4 xl:gap-36 text-lg xl:text-[22px] absolute z-20 xl:static bg-blue-200/60 xl:bg-transparent backdrop-blur-sm xl:backdrop-blur-[initial] text-[#2E5AFC] xl:text-white top-14 right-8 xl:top-[initial] xl:right-[initial] px-8 py-6 xl:p-0`}
+                className={`${ openNavbar ? 'flex' : 'hidden' } xl:flex flex-col xl:flex-row gap-4 xl:gap-32 text-lg xl:text-[22px] absolute z-20 xl:static bg-blue-200/60 xl:bg-transparent backdrop-blur-sm xl:backdrop-blur-[initial] text-[#2E5AFC] xl:text-white top-14 right-8 xl:top-[initial] xl:right-[initial] px-8 py-6 xl:p-0`}
                 onClick={ () => setOpenNavbar(false)}
             >
-                <NavLink to={ '/' } className={({ isActive }) => `${ isActive && 'font-bold'} hover:font-bold text-center xl:w-[calc(88px+0.25rem)]`} >
+                <NavLink to={ '/' } className="hover:font-bold text-center xl:w-[calc(88px+0.25rem)]" >
                     Inicio
                 </NavLink>
-                <NavLink to={ '/servicios' } className={({ isActive }) => `${ isActive && 'font-bold'} hover:font-bold text-center xl:w-[calc(88px+0.25rem)]`} >
+                <NavLink to={ '/servicios' } className="hover:font-bold text-center xl:w-[calc(88px+0.25rem)]" >
                     Servicios
                 </NavLink>
-                <NavLink to={ '/contacto' } className={({ isActive }) => `${ isActive && 'font-bold'} hover:font-bold text-center xl:w-[calc(88px+0.25rem)]`} >
+                <NavLink to={ '/contacto' } className="hover:font-bold text-center xl:w-[calc(88px+0.25rem)]" >
                     Contacto
                 </NavLink>
             </nav>

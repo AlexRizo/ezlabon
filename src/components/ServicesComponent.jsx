@@ -18,15 +18,15 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                                 </g>
                             </svg>
                         </div>
-                        <div className='bg-white rounded-full p-7'>
-                            <div className="rounded-full w-[400px] h-[400px] bg-white overflow-hidden relative">
+                        <div className='bg-white rounded-full p-6'>
+                            <div className="rounded-full w-[390px] h-[390px] bg-white overflow-hidden relative">
                                 <div className={`w-full h-full absolute ${ services[1].img } bg-cover bg-no-repeat ${ services[1].custom }`}></div>
                             </div>
                         </div>
                     </div>
                     <div className='flex flex-col items-center relative z-40 gap-3 text-xl' >
-                        <div className='bg-white rounded-full p-7'>
-                            <div className="rounded-full w-[400px] h-[400px] bg-white overflow-hidden relative">
+                        <div className='bg-white rounded-full p-6'>
+                            <div className="rounded-full w-[390px] h-[390px] bg-white overflow-hidden relative">
                                 <div className={`w-full h-full absolute ${services[2].img} bg-cover bg-no-repeat ${ services[2].custom }`}></div>
                             </div>
                         </div>
@@ -56,8 +56,8 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                                 </g>
                             </svg>
                         </div>
-                        <div className='bg-white rounded-full p-7'>
-                            <div className="rounded-full w-[400px] h-[400px] bg-white overflow-hidden relative">
+                        <div className='bg-white rounded-full p-6'>
+                            <div className="rounded-full w-[390px] h-[390px] bg-white overflow-hidden relative">
                                 <div className={`w-full h-full absolute ${ services[3].img } bg-cover bg-no-repeat ${ services[3].custom }`}></div>
                             </div>
                         </div>

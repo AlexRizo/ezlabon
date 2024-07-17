@@ -112,7 +112,7 @@ export const ServicesPage = () => {
 
             <div className='container m-auto bg-[#F5F5F5] text-black py-10 xl:py-12'>
                 <h1 className='text-center text-[#2E5AFC] text-3xl xl:m-0 mb-6 xl:text-6xl font-semibold'>Equipo</h1>
-                <div className='grid xl:grid-cols-3 gap-y-6 xl:gap-y-10 grid-cols-2'>
+                <div className='grid xl:grid-cols-3 gap-y-6 xl:gap-y-7 grid-cols-2'>
                     {
                         teamData.map((item, index) => {
                             return (

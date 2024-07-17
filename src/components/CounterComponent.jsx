@@ -39,9 +39,9 @@ export const CounterComponent = ({ counter = '1000', text = '', subText = '', in
     
     return (
         <div className="flex flex-col items-center justify-center gap-2 w-full">
-            <p>
+            <p className='w-full text-center'>
                 <span className='text-7xl text-[#2E5AFC]'>+</span>
-                <span className='font-medium  text-7xl'>{ Number.isInteger(count) ? count : count.toFixed(1) }</span>
+                <span className='font-medium text-7xl'>{ Number.isInteger(count) ? count : count.toFixed(1) }</span>
             </p>
             <div className="hidden xl:block">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14.654" height="82.288" viewBox="0 0 14.654 82.288">
