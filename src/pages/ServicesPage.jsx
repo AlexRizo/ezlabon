@@ -98,7 +98,7 @@ const teamData = [
 export const ServicesPage = () => {
     return (
         <>
-            <IndexComponent title='Servicios' titleCustom="-translate-y-10 translate-x-36" custom='uppercase xl:capitalize' img='custom-bg-servicios-page' black='bg-black/30' />
+            <IndexComponent title='Servicios' titleCustom="-translate-y-32 xl:-translate-y-10 xl:translate-x-36" custom='xl:uppercase capitalize' img='custom-bg-servicios-page' black='bg-black/30' />
         
             <ServicesComponent services={ services1 } />
 
@@ -110,7 +110,7 @@ export const ServicesPage = () => {
                 </ServicesComponent>
             </div>
 
-            <div className='container m-auto bg-[#F5F5F5] text-black py-10 xl:py-12'>
+            <div className='container mt-36 xl:m-auto bg-[#F5F5F5] text-black py-10 xl:py-12'>
                 <h1 className='text-center text-[#2E5AFC] text-3xl xl:m-0 mb-6 xl:text-6xl font-semibold'>Equipo</h1>
                 <div className='grid xl:grid-cols-3 gap-y-6 xl:gap-y-7 grid-cols-2'>
                     {

@@ -26,7 +26,6 @@ export const ClientsSliderComponent = () => {
                         prevEl: '.swiper-button-prev'
                     }}
                     modules={[FreeMode, Navigation]}
-                    loop={ true }
                     className="w-[70%] h-full px-14"
                 >
                     <div className="swiper-button-prev !text-white !left-0 bg-[#2e5afc] !top-0 h-full flex items-center justify-center !m-0"></div>
@@ -162,16 +161,16 @@ export const ClientsSliderComponent = () => {
                         <div className="m-auto">
                             <DaltileIcon className="w-[115px] h-min" />
                         </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="grid grid-cols-2 py-28 gap-x-5 gap-y-14">
                         <div className="m-auto">
                             <HencoIcon className="w-[115px] h-min" />
                         </div>
                         <div className="m-auto">
                             <MolycopIcon className="w-[100px] h-min" />
                         </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="grid grid-cols-2 items-center py-28 gap-x-5 gap-y-20">
                         <div className="m-auto">
                             <PenolesIcon className="w-[46px] h-min" />
                         </div>

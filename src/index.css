@@ -89,3 +89,12 @@ body {
         background-image: url('/img/contacto/bg-contacto.jpg');
     }
 }
+
+
+.swiper-pagination-bullet {
+    background-color: #ffff;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ffff;
+}

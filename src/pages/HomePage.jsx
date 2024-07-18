@@ -1,39 +1,35 @@
 import { NavLink } from "react-router-dom"
 import { ButtonComponent, ClientsSliderComponent, CounterComponent } from "../components"
-import { useCounter } from "../helpers/counter"
 import { PointerIcon } from "../icons";
 
+const counterData = [
+    {
+        counter: 50,
+        text: 'Años de experiencia',
+        subText: null,
+        interval: 30
+    },
+    {
+        counter: 1500,
+        text: 'Clientes satisfechos',
+        subText: null,
+        interval: 2
+    },
+    {
+        counter: 2100,
+        text: 'Entregas en 2023',
+        subText: '(contenedores y carga suelta)',
+        interval: 1
+    },
+    {
+        counter: 3.2,
+        text: 'Millones de kilómetros ',
+        subText: 'recorridos en 2023',
+        interval: 80
+    }
+];
+
 export const HomePage = () => {
-    const { init, count } = useCounter();
-
-    
-    const counterData = [
-        {
-            counter: 50,
-            text: 'Años de experiencia',
-            subText: null,
-            interval: 30
-        },
-        {
-            counter: 1500,
-            text: 'Clientes satisfechos',
-            subText: null,
-            interval: 2
-        },
-        {
-            counter: 2100,
-            text: 'Entregas en 2023',
-            subText: '(contenedores y carga suelta)',
-            interval: 1
-        },
-        {
-            counter: 3.2,
-            text: 'Millones de kilómetros ',
-            subText: 'recorridos en 2023',
-            interval: 80
-        }
-    ];
-
     return (
         <>
             <div className="w-full h-screen flex flex-col items-center bg-[url('/img/home/bg-home-mobile.jpg')] xl:bg-[url('/img/home/bg-home.jpg')] bg-no-repeat bg-cover bg-center">
@@ -89,8 +85,8 @@ export const HomePage = () => {
                 </div>
                 <div className="xl:mb-44 relative py-6 xl:p-0">
                     <NavLink to={"/contacto"} className="w-min flex m-auto" >
-                        <ButtonComponent custom="flex font-bold xl:gap-3 py-3 xl:pt-7 xl:pb-4 px-16 xl:px-[7rem] m-auto text-lg">
-                        <PointerIcon className="rotate-[30deg] w-[26px]" />
+                        <ButtonComponent custom="flex font-bold gap-1 xl:gap-3 py-2 xl:pt-7 xl:pb-4 px-16 xl:px-[7rem] m-auto text-lg">
+                        <PointerIcon className="rotate-[30deg] w-[16px] h-min xl:w-[26px]" />
                             Contáctanos
                         </ButtonComponent>
                     </NavLink>

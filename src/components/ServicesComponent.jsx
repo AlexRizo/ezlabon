@@ -1,3 +1,5 @@
+import { ConnectorIcon } from "../icons"
+
 export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-gradient', children }) => {
     return (
         <>
@@ -75,30 +77,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             <p>de carga federal</p>
                         </div>
                         <div className="relative -translate-x-[0.50rem]">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={26.396}
-                            height={8.43}
-                            viewBox="0 0 26.396 8.43"
-                            >
-                                <g data-name="Grupo 113" transform="rotate(90 13.198 13.198)">
-                                    <path
-                                    data-name="L\xEDnea 13"
-                                    transform="translate(4.215)"
-                                    fill="none"
-                                    stroke="#2e5afc"
-                                    strokeMiterlimit={10}
-                                    strokeWidth={1}
-                                    d="M0 0L0 22.912"
-                                    />
-                                    <path
-                                    data-name="Trazado 384"
-                                    d="M8.43 4.215A4.215 4.215 0 114.215 0 4.215 4.215 0 018.43 4.215"
-                                    transform="translate(0 17.966)"
-                                    fill="#2e5afc"
-                                    />
-                                </g>
-                            </svg>
+                            <ConnectorIcon />
                         </div>
                         <div className='bg-white rounded-full p-3'>
                             <div className="rounded-full w-[175px] h-[175px] bg-white overflow-hidden relative">
@@ -113,34 +92,11 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             </div>
                         </div>
                         <div className="rotate-180">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={26.396}
-                            height={8.43}
-                            viewBox="0 0 26.396 8.43"
-                            >
-                                <g data-name="Grupo 113" transform="rotate(90 13.198 13.198)">
-                                    <path
-                                    data-name="L\xEDnea 13"
-                                    transform="translate(4.215)"
-                                    fill="none"
-                                    stroke="#2e5afc"
-                                    strokeMiterlimit={10}
-                                    strokeWidth={1}
-                                    d="M0 0L0 22.912"
-                                    />
-                                    <path
-                                    data-name="Trazado 384"
-                                    d="M8.43 4.215A4.215 4.215 0 114.215 0 4.215 4.215 0 018.43 4.215"
-                                    transform="translate(0 17.966)"
-                                    fill="#2e5afc"
-                                    />
-                                </g>
-                            </svg>
+                            <ConnectorIcon />
                         </div>
                         <div className='text-end w-[105px]'>
                             <p>Traslados</p>
-                            <p>foraneos</p>
+                            <p>foráneos</p>
                         </div>
                     </div>
                     <div className='flex flex-row-reverse items-center absolute z-30 text-sm top-0 translate-y-[17rem] translate-x-4' >
@@ -149,30 +105,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             <p>locales</p>
                         </div>
                         <div className="relative -translate-x-[0.50rem]">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={26.396}
-                            height={8.43}
-                            viewBox="0 0 26.396 8.43"
-                            >
-                                <g data-name="Grupo 113" transform="rotate(90 13.198 13.198)">
-                                    <path
-                                    data-name="L\xEDnea 13"
-                                    transform="translate(4.215)"
-                                    fill="none"
-                                    stroke="#2e5afc"
-                                    strokeMiterlimit={10}
-                                    strokeWidth={1}
-                                    d="M0 0L0 22.912"
-                                    />
-                                    <path
-                                    data-name="Trazado 384"
-                                    d="M8.43 4.215A4.215 4.215 0 114.215 0 4.215 4.215 0 018.43 4.215"
-                                    transform="translate(0 17.966)"
-                                    fill="#2e5afc"
-                                    />
-                                </g>
-                            </svg>
+                            <ConnectorIcon />
                         </div>
                         <div className='bg-white rounded-full p-3'>
                             <div className="rounded-full w-[175px] h-[175px] bg-white overflow-hidden relative">
@@ -187,30 +120,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             </div>
                         </div>
                         <div className="rotate-180">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={26.396}
-                            height={8.43}
-                            viewBox="0 0 26.396 8.43"
-                            >
-                                <g data-name="Grupo 113" transform="rotate(90 13.198 13.198)">
-                                    <path
-                                    data-name="L\xEDnea 13"
-                                    transform="translate(4.215)"
-                                    fill="none"
-                                    stroke="#2e5afc"
-                                    strokeMiterlimit={10}
-                                    strokeWidth={1}
-                                    d="M0 0L0 22.912"
-                                    />
-                                    <path
-                                    data-name="Trazado 384"
-                                    d="M8.43 4.215A4.215 4.215 0 114.215 0 4.215 4.215 0 018.43 4.215"
-                                    transform="translate(0 17.966)"
-                                    fill="#2e5afc"
-                                    />
-                                </g>
-                            </svg>
+                            <ConnectorIcon />
                         </div>
                         <div className='text-end'>
                             <p>Consolidación y </p>
@@ -225,30 +135,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             <p>y aire libre</p>
                         </div>
                         <div className="relative -translate-x-[0.50rem]">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={26.396}
-                            height={8.43}
-                            viewBox="0 0 26.396 8.43"
-                            >
-                                <g data-name="Grupo 113" transform="rotate(90 13.198 13.198)">
-                                    <path
-                                    data-name="L\xEDnea 13"
-                                    transform="translate(4.215)"
-                                    fill="none"
-                                    stroke="#2e5afc"
-                                    strokeMiterlimit={10}
-                                    strokeWidth={1}
-                                    d="M0 0L0 22.912"
-                                    />
-                                    <path
-                                    data-name="Trazado 384"
-                                    d="M8.43 4.215A4.215 4.215 0 114.215 0 4.215 4.215 0 018.43 4.215"
-                                    transform="translate(0 17.966)"
-                                    fill="#2e5afc"
-                                    />
-                                </g>
-                            </svg>
+                            <ConnectorIcon />
                         </div>
                         <div className='bg-white rounded-full p-3'>
                             <div className="rounded-full w-[175px] h-[175px] bg-white overflow-hidden relative">
@@ -263,30 +150,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             </div>
                         </div>
                         <div className="rotate-180">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={26.396}
-                            height={8.43}
-                            viewBox="0 0 26.396 8.43"
-                            >
-                                <g data-name="Grupo 113" transform="rotate(90 13.198 13.198)">
-                                    <path
-                                    data-name="L\xEDnea 13"
-                                    transform="translate(4.215)"
-                                    fill="none"
-                                    stroke="#2e5afc"
-                                    strokeMiterlimit={10}
-                                    strokeWidth={1}
-                                    d="M0 0L0 22.912"
-                                    />
-                                    <path
-                                    data-name="Trazado 384"
-                                    d="M8.43 4.215A4.215 4.215 0 114.215 0 4.215 4.215 0 018.43 4.215"
-                                    transform="translate(0 17.966)"
-                                    fill="#2e5afc"
-                                    />
-                                </g>
-                            </svg>
+                            <ConnectorIcon />
                         </div>
                         <div className='text-end'>
                             <p>Servicio</p>
