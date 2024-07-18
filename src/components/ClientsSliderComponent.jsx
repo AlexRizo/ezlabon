@@ -1,9 +1,10 @@
-import { FreeMode, Navigation } from "swiper/modules"
+import { FreeMode, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
 import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/free-mode"
+import 'swiper/css/pagination';
 
 import { ArmaConcretoIcon, CamesaIcon, CemexIcon, CocaColaIcon, CpcIcon, GrupoMexicoIcon, KuehneNagelIcon, TornelIcon, StanleyIcon, DaltileIcon, HencoIcon, MolycopIcon, PenolesIcon, PandGIcon, IBMEXIcon, MolIcon, MexinoxIcon, MscIcon } from "../icons"
 
@@ -123,62 +124,75 @@ export const ClientsSliderComponent = () => {
                 </Swiper>
             </div>
 
-            <div className="bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] grid grid-cols-2 items-center py-28 gap-x-5 gap-y-20 xl:hidden">
-                    <div className="m-auto">
-                        <CocaColaIcon className="w-[100px] h-min" />
+            <Swiper
+                cssMode={ true }
+                pagination={{ clickable: true }}
+                modules={[ Pagination ]}
+                className="mySwiper bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] xl:hidden"
+            >
+                <SwiperSlide>
+                    <div className="grid grid-cols-2 items-center py-28 gap-x-5 gap-y-20">
+                        <div className="m-auto">
+                            <CocaColaIcon className="w-[100px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <GrupoMexicoIcon className="w-[160px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <TornelIcon className="w-[110px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <ArmaConcretoIcon className="w-[120px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <CpcIcon className="w-[70px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <KuehneNagelIcon className="w-[150px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <CemexIcon className="w-[125px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <CamesaIcon className="w-[125px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <StanleyIcon className="w-[115px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <DaltileIcon className="w-[115px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <HencoIcon className="w-[115px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <MolycopIcon className="w-[100px] h-min" />
+                        </div>
                     </div>
-                    <div className="m-auto">
-                        <GrupoMexicoIcon className="w-[160px] h-min" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="grid grid-cols-2 items-center py-28 gap-x-5 gap-y-20">
+                        <div className="m-auto">
+                            <PenolesIcon className="w-[46px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <PandGIcon className="w-[60px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <IBMEXIcon className="w-[55px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <MolIcon className="w-[65px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <MexinoxIcon className="w-[75px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                            <MscIcon className="w-[55px] h-min" />
+                        </div>
                     </div>
-                    <div className="m-auto">
-                        <TornelIcon className="w-[110px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <ArmaConcretoIcon className="w-[120px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <CpcIcon className="w-[70px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <KuehneNagelIcon className="w-[150px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <CemexIcon className="w-[125px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <CamesaIcon className="w-[125px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <StanleyIcon className="w-[115px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <DaltileIcon className="w-[115px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <HencoIcon className="w-[115px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <MolycopIcon className="w-[100px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <PenolesIcon className="w-[46px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <PandGIcon className="w-[60px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <IBMEXIcon className="w-[55px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <MolIcon className="w-[65px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <MexinoxIcon className="w-[75px] h-min" />
-                    </div>
-                    <div className="m-auto">
-                        <MscIcon className="w-[55px] h-min" />
-                    </div>
-            </div>
+                </SwiperSlide>
+            </Swiper>
         </>
     )
 }

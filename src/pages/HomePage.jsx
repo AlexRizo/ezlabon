@@ -84,7 +84,7 @@ export const HomePage = () => {
                     <ClientsSliderComponent />
                 </div>
             </div>
-            <div className="xl:mt-16">
+            <div className="xl:mt-16 relative overflow-hidden xl:overflow-auto">
                 <div className="absolute translate-x-[-19.72rem] xl:translate-x-0 translate-y-60 xl:translate-y-[4.25rem] bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/contact-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[45rem] bg-cover bg-no-repeat xl:bg-[-7rem]">
                 </div>
                 <div className="xl:mb-44 relative py-6 xl:p-0">
