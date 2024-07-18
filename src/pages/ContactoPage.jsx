@@ -13,17 +13,17 @@ export const ContactoPage = () => {
     
     return (
         <>
-            <IndexComponent title={ <span className='font-semibold xl:text-7xl text-4xl'>¡Pon tu carga<br /> en nuestras<br /> manos!</span>} titleCustom='xl:translate-y-0 xl:translate-x-52' img='custom-bg-contacto-page' custom='bg-bottom' black="bg-black/25" />
+            <IndexComponent title={ <span className='font-semibold'>¡Pon tu carga<br className='hidden xl:block' /> en nuestras<br className='hidden xl:block' /> manos!</span>} titleCustom='-translate-y-28 xl:translate-y-0 xl:translate-x-52 xl:text-7xl text-4xl leading-8' img='custom-bg-contacto-page' custom='bg-bottom' black="bg-black/25" />
 
             <div className='container m-auto'>
                 <h1 className='text-[#2E5AFC] text-3xl xl:text-5xl font-semibold text-center bg-[#F5F5F5] xl:bg-transparent px-10 py-4 xl:py-16'>Cotiza tu transporte de carga:</h1>
                 <form onSubmit={ onSubmit } className='bg-[#F5F5F5] xl:px-32 px-10 xl:py-20 flex flex-col gap-6 xl:gap-16'>
                     <div className='flex flex-col gap-2 xl:gap-4 text-sm xl:text-xl'>
                         <h2 className='text-[#2E5AFC] text-lg xl:text-2xl font-semibold'>Datos Personales:</h2>
-                        <input className='placeholder:opacity-95 py-3 px-6 xl:p-4 text-black font-normal' type="text" name="nombre" placeholder='Nombre:' required />
-                        <input className='placeholder:opacity-95 py-3 px-6 xl:p-4 text-black font-normal' type="text" name="empresa" placeholder='Empresa:' required />
-                        <input className='placeholder:opacity-95 py-3 px-6 xl:p-4 text-black font-normal' type="email" name="correo" placeholder='Correo Electrónico:' required />
-                        <input className='placeholder:opacity-95 py-3 px-6 xl:p-4 text-black font-normal' type="tel" name="telefono" placeholder='Teléfono:' required />
+                        <input className='placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="text" name="nombre" placeholder='Nombre:' required />
+                        <input className='placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="text" name="empresa" placeholder='Empresa:' required />
+                        <input className='placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="email" name="correo" placeholder='Correo Electrónico:' required />
+                        <input className='placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="tel" name="telefono" placeholder='Teléfono:' required />
                     </div>
 
                     <div className='flex flex-col gap-2 xl:gap-4 text-sm xl:text-xl'>
