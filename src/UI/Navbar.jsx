@@ -22,7 +22,7 @@ export const Navbar = () => {
     }, []);
     
     return (
-        <header className={`w-full flex justify-between items-center px-8 py-4 xl:px-24 xl:py-5 text-white sticky top-0 ${ scrolled && 'bg-black/30 backdrop-blur-md' } transition-colors z-[1000]`}>
+        <header className={`w-full flex justify-between items-center px-8 py-4 xl:px-24 xl:py-5 text-white fixed top-0 ${ scrolled && 'bg-black/30 backdrop-blur-md' } transition-colors z-[1000]`}>
             <nav>
                 <NavLink to={'/'}>
                     <EzlabonIcon className="w-[160px] xl:w-[230px] h-min" />
