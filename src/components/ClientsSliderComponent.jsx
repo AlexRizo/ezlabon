@@ -163,8 +163,8 @@ export const ClientsSliderComponent = () => {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div className="grid grid-cols-2 py-28 gap-x-5 gap-y-14">
+                <SwiperSlide className="h-ful flex items-center justify-center h-[555px]">
+                    <div className="grid grid-cols-2 gap-x-5 gap-y-14">
                         <div className="m-auto">
                             <HencoIcon className="w-[115px] h-min" />
                         </div>
