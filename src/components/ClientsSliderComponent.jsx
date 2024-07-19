@@ -127,7 +127,7 @@ export const ClientsSliderComponent = () => {
                 cssMode={ true }
                 pagination={{ clickable: true }}
                 modules={[ Pagination ]}
-                className="mySwiper bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] xl:hidden h-min"
+                className="mySwiper bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] xl:hidden h-screen"
             >
                 <SwiperSlide className="h-full flex items-center justify-center">
                     <div className="grid grid-cols-2 my-auto content-between gap-x-5 h-[555px]">
