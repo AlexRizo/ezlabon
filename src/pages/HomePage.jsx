@@ -37,8 +37,8 @@ export const HomePage = () => {
                 //? ButtonComponent puede recibir un { children } y 
                 //? { content }, pero sólo puede usar uno de los 2 
                 }
-                <NavLink to={"/servicios"} className="absolute bottom-2 xl:-bottom-10 w-full xl:w-auto px-4 xl:p-0 z-10">
-                    <ButtonComponent custom='flex justify-center gap-2 pt-3 xl:pt-7 xl:pb-3 px-0 w-full xl:w-max text-sm'>
+                <NavLink to={"/servicios"} className="absolute bottom-2 xl:-bottom-10 w-full xl:w-max px-4 xl:p-0 z-10">
+                    <ButtonComponent custom='flex justify-center gap-2 xl:pt-7 xl:pb-3 px-0 w-full xl:w-max text-sm'>
                         <PointerIcon className="rotate-[30deg] w-[12px] xl:w-[26px] h-min xl:-translate-y-1" />
                         <p>Conoce más de nuestros <strong>servicios</strong></p>
                     </ButtonComponent>

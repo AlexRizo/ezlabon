@@ -1,7 +1,7 @@
 export const EquipoComponent = ({ children, title = '', p, custom = '' }) => {
     return (
         <div className={ `flex flex-col items-center xl:gap-4 ${ custom }` }>
-            <div className="h-[64px] xl:h-[107px] flex items-end">
+            <div className="h-[58px] xl:h-[107px] flex items-end">
                 { children }
             </div>
             <div className='text-center'>
