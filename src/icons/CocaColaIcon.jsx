@@ -10,7 +10,7 @@ export const CocaColaIcon = (props) => {
       <defs>
         <style>
           {
-            ".cls-1,.cls-2{fill:#f4f8fd;stroke-width:0}.cls-2{fill-rule:evenodd}"
+            ".cls-1,.cls-2{fill:#fff;stroke-width:0}.cls-2{fill-rule:evenodd}"
           }
         </style>
       </defs>

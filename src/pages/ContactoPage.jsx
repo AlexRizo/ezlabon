@@ -75,7 +75,7 @@ export const ContactoPage = () => {
                     <div className='flex flex-col gap-3 xl:gap-10'>
                         <div className='text-sm xl:text-xl flex items-center gap-3 xl:gap-5 text-black'>
                             <div className='w-[21px] xl:w-[40px] flex justify-center'>
-                                <UbicationIcon className="w-[10px] xl:w-[18px]" />
+                                <UbicationIcon className="w-[10px] xl:w-[17px]" />
                             </div>
                             <p>KM 220 carretera Jiquilpan-Manzanillo</p>
                         </div>

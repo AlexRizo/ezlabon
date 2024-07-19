@@ -37,15 +37,15 @@ export const HomePage = () => {
                 //? ButtonComponent puede recibir un { children } y 
                 //? { content }, pero sólo puede usar uno de los 2 
                 }
-                <NavLink to={"/servicios"} className="absolute bottom-2 xl:-bottom-12 w-full xl:w-auto px-4 xl:p-0">
-                    <ButtonComponent custom='flex justify-center gap-2 pt-3 xl:pt-7 xl:pb-3 px-0 w-full xl:w-auto text-sm'>
+                <NavLink to={"/servicios"} className="absolute bottom-2 xl:-bottom-10 w-full xl:w-auto px-4 xl:p-0 z-10">
+                    <ButtonComponent custom='flex justify-center gap-2 pt-3 xl:pt-7 xl:pb-3 px-0 w-full xl:w-max text-sm'>
                         <PointerIcon className="rotate-[30deg] w-[12px] xl:w-[26px] h-min xl:-translate-y-1" />
                         <p>Conoce más de nuestros <strong>servicios</strong></p>
                     </ButtonComponent>
                 </NavLink>
             </div>
 
-            <div className="relative overflow-hidden">
+            <div className="relative overflow-hidden xl:overflow-visible">
                 <h1 className="text-3xl xl:text-5xl text-[#2E5AFC] font-semibold text-center py-5 xl:py-12 xl:mt-12">Experiencia</h1>
                 <div className="flex flex-col xl:flex-row items-center justify-center w-full h-auto xl:w-[1170px] xl:h-[630px] xl:mx-auto">
                     <div className="bg-gray-100 w-full h-full flex items-center justify-center py-14">                            
@@ -74,13 +74,13 @@ export const HomePage = () => {
                     }
                 </div>
             </div>
-            <div className="mt-5 xl:mt-64 flex flex-col items-center w-full">
+            <div className="mt-5 xl:mt-56 flex flex-col items-center w-full">
                 <h1 className="text-[#2E5AFC] text-2xl xl:text-4xl font-semibold xl:mb-8 py-4 xl:px-28 xl:p-0 text-center">Algunos de <br className="xl:hidden" /> nuestros clientes</h1>
                 <div className="w-full">
                     <ClientsSliderComponent />
                 </div>
             </div>
-            <div className="xl:mt-16 relative overflow-hidden xl:overflow-auto">
+            <div className="xl:mt-16 relative overflow-hidden xl:overflow-visible">
                 <div className="absolute translate-x-[-19.72rem] xl:translate-x-0 translate-y-60 xl:translate-y-[4.25rem] bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/contact-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[45rem] bg-cover bg-no-repeat xl:bg-[-7rem]">
                 </div>
                 <div className="xl:mb-44 relative py-6 xl:p-0">

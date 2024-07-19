@@ -26,28 +26,28 @@ export const ClientsSliderComponent = () => {
                         prevEl: '.swiper-button-prev'
                     }}
                     modules={[FreeMode, Navigation]}
-                    className="w-[70%] h-full px-14"
+                    className="w-[1300px] h-full px-14"
                 >
                     <div className="swiper-button-prev !text-white !left-0 bg-[#2e5afc] !top-0 h-full flex items-center justify-center !m-0"></div>
                     <div className="swiper-button-next !text-white !right-0 bg-[#2e5afc] !top-0 h-full flex items-center justify-center !m-0" ></div>
                     <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <CocaColaIcon className="h-min w-[160px]" />
+                            <CocaColaIcon className="h-min w-[150px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <CemexIcon className="h-min w-[190px]" />
+                            <CemexIcon className="h-min w-[180px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <CamesaIcon className="h-min w-[210px]" />
+                            <CamesaIcon className="h-min w-[200px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <GrupoMexicoIcon className="h-min w-[250px]" />
+                            <GrupoMexicoIcon className="h-min w-[240px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
@@ -62,22 +62,22 @@ export const ClientsSliderComponent = () => {
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <TornelIcon className="h-min w-[170px]" />
+                            <TornelIcon className="h-min w-[160px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <StanleyIcon className="h-min w-[180px]" />
+                            <StanleyIcon className="h-min w-[170px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <DaltileIcon className="h-min w-[180px]" />
+                            <DaltileIcon className="h-min w-[170px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <ArmaConcretoIcon className="h-min w-[200px]" />
+                            <ArmaConcretoIcon className="h-min w-[190px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
@@ -97,17 +97,17 @@ export const ClientsSliderComponent = () => {
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <HencoIcon className="h-min w-[175px]" />
+                            <HencoIcon className="h-min w-[165px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <MolycopIcon className="h-min w-[155px]" />
+                            <MolycopIcon className="h-min w-[145px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
                         <div className="flex items-center justify-center">
-                            <KuehneNagelIcon className="h-min w-[250px]" />
+                            <KuehneNagelIcon className="h-min w-[240px]" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="flex items-center justify-center ">
