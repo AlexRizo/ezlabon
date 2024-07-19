@@ -38,8 +38,8 @@ export const HomePage = () => {
                 //? { content }, pero sólo puede usar uno de los 2 
                 }
                 <NavLink to={"/servicios"} className="absolute bottom-5 xl:-bottom-10 w-full xl:w-max px-2 xl:p-0 z-10">
-                    <ButtonComponent custom='flex relative justify-center items-center gap-1 xl:pt-7 xl:pb-3 px-0 w-full xl:w-max text-sm'>
-                        <PointerIcon className="rotate-[30deg] w-[12px] xl:w-[26px] h-min absolute left-16" />
+                    <ButtonComponent custom='flex relative justify-center items-center gap-1 xl:pt-5 xl:pb-3 px-0 xl:pb-5 w-full xl:w-max text-sm'>
+                        <PointerIcon className="rotate-[30deg] w-[12px] xl:w-[26px] h-min absolute xl:static left-16 xl:left-auto" />
                         <p>Conoce más de nuestros <strong>servicios</strong></p>
                     </ButtonComponent>
                 </NavLink>
@@ -84,9 +84,9 @@ export const HomePage = () => {
                 <div className="absolute translate-x-[-19.72rem] xl:translate-x-0 translate-y-60 xl:translate-y-[4.25rem] bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/contact-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[45rem] bg-cover bg-no-repeat xl:bg-[-7rem]">
                 </div>
                 <div className="xl:mb-44 relative py-6 xl:p-0">
-                    <NavLink to={"/contacto"} className="w-[222px] flex m-auto" >
-                        <ButtonComponent custom="flex font-bold items-center justify-center gap-1 xl:gap-3 p-0 xl:pt-7 xl:pb-4 xl:px-[7rem] m-auto w-full h-[50px] max-h-[50px] text-lg">
-                        <PointerIcon className="rotate-[30deg] w-[16px] h-min xl:w-[26px]" />
+                    <NavLink to={"/contacto"} className="w-[222px] xl:w-min flex m-auto" >
+                        <ButtonComponent custom="flex font-bold items-center justify-center gap-1 xl:gap-3 p-0 xl:pt-6 xl:pb-4 xl:px-[6rem] m-auto w-full h-[50px] xl:h-auto max-h-[50px] xl:max-h-[unset] text-lg">
+                            <PointerIcon className="rotate-[30deg] w-[16px] h-min xl:w-[26px]" />
                             Contáctanos
                         </ButtonComponent>
                     </NavLink>

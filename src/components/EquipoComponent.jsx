@@ -10,7 +10,7 @@ export const EquipoComponent = ({ children, title = '', p, custom = '' }) => {
                         ? <h1 className='xl:text-xl text-xs'>{ title }</h1>
                         : <h1 className='xl:text-xl'>{ title }</h1> 
                 } */}
-                <h1 className='xl:text-xl'>{ title }</h1>
+                <h1 className='text-[15.5px] xl:text-xl'>{ title }</h1>
                 { p && <p className='xl:text-base text-xs'>{ p }</p> }
             </div>
         </div>
