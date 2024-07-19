@@ -77,7 +77,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             <p>de carga federal</p>
                         </div>
                         <div className="relative -translate-x-[0.50rem]">
-                            <ConnectorIcon />
+                            <ConnectorIcon className="" />
                         </div>
                         <div className='bg-white rounded-full p-3'>
                             <div className="rounded-full w-[175px] h-[175px] bg-white overflow-hidden relative">
@@ -92,7 +92,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             </div>
                         </div>
                         <div className="rotate-180">
-                            <ConnectorIcon />
+                            <ConnectorIcon className="w-[25px] h-min" />
                         </div>
                         <div className='text-end w-[105px]'>
                             <p>Traslados</p>
@@ -105,7 +105,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             <p>locales</p>
                         </div>
                         <div className="relative -translate-x-[0.50rem]">
-                            <ConnectorIcon />
+                            <ConnectorIcon className="w-[25px] h-min" />
                         </div>
                         <div className='bg-white rounded-full p-3'>
                             <div className="rounded-full w-[175px] h-[175px] bg-white overflow-hidden relative">
@@ -120,7 +120,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             </div>
                         </div>
                         <div className="rotate-180">
-                            <ConnectorIcon />
+                            <ConnectorIcon className="w-[25px] h-min" />
                         </div>
                         <div className='text-end'>
                             <p>Consolidación y </p>
@@ -135,7 +135,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             <p>y aire libre</p>
                         </div>
                         <div className="relative -translate-x-[0.50rem]">
-                            <ConnectorIcon />
+                            <ConnectorIcon className="w-[25px] h-min" />
                         </div>
                         <div className='bg-white rounded-full p-3'>
                             <div className="rounded-full w-[175px] h-[175px] bg-white overflow-hidden relative">
@@ -150,7 +150,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             </div>
                         </div>
                         <div className="rotate-180">
-                            <ConnectorIcon />
+                            <ConnectorIcon className="w-[25px] h-min" />
                         </div>
                         <div className='text-end'>
                             <p>Servicio</p>
