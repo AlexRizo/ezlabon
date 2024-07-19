@@ -127,9 +127,9 @@ export const ClientsSliderComponent = () => {
                 cssMode={ true }
                 pagination={{ clickable: true }}
                 modules={[ Pagination ]}
-                className="mySwiper bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] xl:hidden h-[848px]"
+                className="mySwiper bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] xl:hidden h-[948px]"
             >
-                <SwiperSlide className="h-ful flex items-center justify-center">
+                <SwiperSlide className="h-full flex items-center justify-center">
                     <div className="grid grid-cols-2 my-auto content-between gap-x-5 h-[555px]">
                         <div className="m-auto">
                             <CocaColaIcon className="w-[100px] h-min" />
@@ -163,8 +163,8 @@ export const ClientsSliderComponent = () => {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-ful flex items-center justify-center h-[555px]">
-                    <div className="grid grid-cols-2 gap-x-5 gap-y-14">
+                <SwiperSlide className="h-full flex items-center justify-center">
+                    <div className="grid grid-cols-2 gap-x-5 content-between h-[555px]">
                         <div className="m-auto">
                             <HencoIcon className="w-[115px] h-min" />
                         </div>
@@ -188,6 +188,10 @@ export const ClientsSliderComponent = () => {
                         </div>
                         <div className="m-auto">
                             <MscIcon className="w-[55px] h-min" />
+                        </div>
+                        <div className="m-auto">
+                        </div>
+                        <div className="m-auto">
                         </div>
                     </div>
                 </SwiperSlide>
