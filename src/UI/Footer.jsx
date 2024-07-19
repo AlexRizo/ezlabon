@@ -18,7 +18,9 @@ export const Footer = () => {
                     </NavLink>
                 </nav>
                 <div className="order-1 xl:order-2">
-                    <EzlabonIcon fill="#2E5AFC" className="w-[190px]" />
+                    <NavLink to={"/"}>
+                        <EzlabonIcon fill="#2E5AFC" className="w-[190px]" />
+                    </NavLink>
                 </div>
                 <nav className="flex xl:flex-col gap-7 order-3 items-center">
                     <a href="tel:+520000000000">
