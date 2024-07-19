@@ -37,9 +37,9 @@ export const HomePage = () => {
                 //? ButtonComponent puede recibir un { children } y 
                 //? { content }, pero sólo puede usar uno de los 2 
                 }
-                <NavLink to={"/servicios"} className="absolute bottom-2 xl:-bottom-10 w-full xl:w-max px-4 xl:p-0 z-10">
+                <NavLink to={"/servicios"} className="absolute bottom-2 xl:-bottom-10 w-full xl:w-max px-2 xl:p-0 z-10">
                     <ButtonComponent custom='flex justify-center gap-2 xl:pt-7 xl:pb-3 px-0 w-full xl:w-max text-sm'>
-                        <PointerIcon className="rotate-[30deg] w-[12px] xl:w-[26px] h-min xl:-translate-y-1" />
+                        <PointerIcon className="rotate-[30deg] w-[12px] xl:w-[26px] h-min" />
                         <p>Conoce más de nuestros <strong>servicios</strong></p>
                     </ButtonComponent>
                 </NavLink>
@@ -84,8 +84,8 @@ export const HomePage = () => {
                 <div className="absolute translate-x-[-19.72rem] xl:translate-x-0 translate-y-60 xl:translate-y-[4.25rem] bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/contact-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[45rem] bg-cover bg-no-repeat xl:bg-[-7rem]">
                 </div>
                 <div className="xl:mb-44 relative py-6 xl:p-0">
-                    <NavLink to={"/contacto"} className="w-min flex m-auto" >
-                        <ButtonComponent custom="flex font-bold gap-1 xl:gap-3 py-2 xl:pt-7 xl:pb-4 px-16 xl:px-[7rem] m-auto text-lg">
+                    <NavLink to={"/contacto"} className="w-[222px] flex m-auto" >
+                        <ButtonComponent custom="flex font-bold items-center justify-center gap-1 xl:gap-3 py-2 xl:pt-7 xl:pb-4 xl:px-[7rem] m-auto w-full text-lg">
                         <PointerIcon className="rotate-[30deg] w-[16px] h-min xl:w-[26px]" />
                             Contáctanos
                         </ButtonComponent>
