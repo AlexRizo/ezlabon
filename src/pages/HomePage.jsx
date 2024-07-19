@@ -39,7 +39,7 @@ export const HomePage = () => {
                 }
                 <NavLink to={"/servicios"} className="absolute bottom-2 xl:-bottom-10 w-full xl:w-max px-2 xl:p-0 z-10">
                     <ButtonComponent custom='flex relative justify-center items-center gap-1 xl:pt-7 xl:pb-3 px-0 w-full xl:w-max text-sm'>
-                        <PointerIcon className="rotate-[30deg] w-[12px] xl:w-[26px] h-min absolute" />
+                        <PointerIcon className="rotate-[30deg] w-[12px] xl:w-[26px] h-min absolute left-16" />
                         <p>Conoce más de nuestros <strong>servicios</strong></p>
                     </ButtonComponent>
                 </NavLink>
@@ -85,8 +85,8 @@ export const HomePage = () => {
                 </div>
                 <div className="xl:mb-44 relative py-6 xl:p-0">
                     <NavLink to={"/contacto"} className="w-[222px] flex m-auto" >
-                        <ButtonComponent custom="flex font-bold items-center justify-center gap-1 xl:gap-3 py-2 xl:pt-7 xl:pb-4 xl:px-[7rem] m-auto w-full text-lg">
-                        <PointerIcon className="rotate-[30deg] w-[16px] h-min xl:w-[26px] absolute" />
+                        <ButtonComponent custom="flex font-bold items-center justify-center gap-1 xl:gap-3 p-0 xl:pt-7 xl:pb-4 xl:px-[7rem] m-auto w-full h-[50px] max-h-[50px] text-lg">
+                        <PointerIcon className="rotate-[30deg] w-[16px] h-min xl:w-[26px]" />
                             Contáctanos
                         </ButtonComponent>
                     </NavLink>
