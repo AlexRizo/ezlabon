@@ -38,7 +38,7 @@ export const HomePage = () => {
                 //? { content }, pero sólo puede usar uno de los 2 
                 }
                 <NavLink to={"/servicios"} className="absolute bottom-2 xl:-bottom-10 w-full xl:w-max px-2 xl:p-0 z-10">
-                    <ButtonComponent custom='flex justify-center items-center gap-1 xl:pt-7 xl:pb-3 px-0 w-full xl:w-max text-sm'>
+                    <ButtonComponent custom='flex relative justify-center items-center gap-1 xl:pt-7 xl:pb-3 px-0 w-full xl:w-max text-sm'>
                         <PointerIcon className="rotate-[30deg] w-[12px] xl:w-[26px] h-min absolute" />
                         <p>Conoce más de nuestros <strong>servicios</strong></p>
                     </ButtonComponent>

@@ -20,16 +20,16 @@ export const ContactoPage = () => {
                 <form onSubmit={ onSubmit } className='bg-[#F5F5F5] xl:px-32 px-10 xl:py-20 flex flex-col gap-6 xl:gap-16'>
                     <div className='flex flex-col gap-2 xl:gap-4 text-sm xl:text-xl'>
                         <h2 className='text-[#2E5AFC] text-lg xl:text-2xl font-semibold'>Datos Personales:</h2>
-                        <input className='placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="text" name="nombre" placeholder='Nombre:' required />
-                        <input className='placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="text" name="empresa" placeholder='Empresa:' required />
-                        <input className='placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="email" name="correo" placeholder='Correo Electrónico:' required />
-                        <input className='placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="tel" name="telefono" placeholder='Teléfono:' required />
+                        <input className='rounded-none placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="text" name="nombre" placeholder='Nombre:' required />
+                        <input className='rounded-none placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="text" name="empresa" placeholder='Empresa:' required />
+                        <input className='rounded-none placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="email" name="correo" placeholder='Correo Electrónico:' required />
+                        <input className='rounded-none placeholder:opacity-95 py-3 px-3 xl:p-4 text-black font-normal' type="tel" name="telefono" placeholder='Teléfono:' required />
                     </div>
 
                     <div className='flex flex-col gap-2 xl:gap-4 text-sm xl:text-xl'>
                         <h2 className='text-[#2E5AFC] text-lg xl:text-2xl leading-none xl:leading-normal font-semibold'>Detalles de solicitud <br className='xl:hidden' /> de transporte:</h2>
                         <input
-                            className='hidden xl:block placeholder:opacity-95 py-3 px-6 xl:p-4 text-black font-normal'
+                            className='rounded-none hidden xl:block placeholder:opacity-95 py-3 px-6 xl:p-4 text-black font-normal'
                             type="number"
                             name="cantidad"
                             placeholder='Número de contenedores o plataformas para carga suelta:'
@@ -38,17 +38,17 @@ export const ContactoPage = () => {
                         <textarea 
                             name="cantidad" 
                             id="cantidad-m"
-                            className='xl:hidden placeholder:opacity-95 py-1 px-3 xl:p-4 text-black font-normal resize-none'
+                            className='rounded-none xl:hidden placeholder:opacity-95 py-1 px-3 xl:p-4 text-black font-normal resize-none'
                             type="number"
                             placeholder='Número de contenedores o plataformas para carga suelta:'
                             required
                         ></textarea>
-                        <input className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal' type="text" name="tipo" placeholder='Tipo de mercancía:' required />
-                        <input className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal' type="text" name="peso" placeholder='Peso de mercancía:' required />
-                        <input className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal' type="text" name="carga" placeholder='¿Dónde se carga?' required />
-                        <input className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal' type="text" name="descarga" placeholder='¿Dónde se descarga?' required />
-                        <textarea className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal resize-none' name="servicios" rows="3" placeholder='¿Qué otro(s) servicio(s) necesitas?'></textarea>
-                        <textarea className='placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal resize-none' name="detalles" rows="3" placeholder='¿Hay algún otro detalle que quieras agregar?'></textarea>
+                        <input className='rounded-none placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal' type="text" name="tipo" placeholder='Tipo de mercancía:' required />
+                        <input className='rounded-none placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal' type="text" name="peso" placeholder='Peso de mercancía:' required />
+                        <input className='rounded-none placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal' type="text" name="carga" placeholder='¿Dónde se carga?' required />
+                        <input className='rounded-none placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal' type="text" name="descarga" placeholder='¿Dónde se descarga?' required />
+                        <textarea className='rounded-none placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal resize-none' name="servicios" rows="3" placeholder='¿Qué otro(s) servicio(s) necesitas?'></textarea>
+                        <textarea className='rounded-none placeholder:opacity-95 pb-5 pt-1 px-2 xl:p-4 text-black font-normal resize-none' name="detalles" rows="3" placeholder='¿Hay algún otro detalle que quieras agregar?'></textarea>
                     </div>
                     <div className='flex items-center justify-center mb-6 xl:mb-0 xl:mt-5'>
                         <ButtonComponent content='Enviar' custom='font-bold px-16 xl:px-[6rem] py-2.5 xl:py-4' />
