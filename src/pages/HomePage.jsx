@@ -37,9 +37,9 @@ export const HomePage = () => {
                 //? ButtonComponent puede recibir un { children } y 
                 //? { content }, pero sólo puede usar uno de los 2 
                 }
-                <NavLink to={"/servicios"} className="absolute bottom-5 xl:-bottom-10 w-full xl:w-max px-2 xl:p-0 z-10">
-                    <ButtonComponent custom='flex relative justify-center items-center gap-1 xl:pt-5 xl:pb-3 px-0 xl:pb-5 w-full xl:w-max text-sm'>
-                        <PointerIcon className="rotate-[30deg] w-[12px] xl:w-[26px] h-min absolute xl:static left-16 xl:left-auto" />
+                <NavLink to={"/servicios"} className="absolute bottom-6 xl:-bottom-10 w-full xl:w-max px-2 xl:p-0 z-10">
+                    <ButtonComponent custom='flex relative xl:gap-3 justify-center items-center gap-1 xl:pt-5 xl:pb-3 px-0 xl:pb-5 w-full xl:w-max text-sm'>
+                        <PointerIcon className="rotate-[30deg] w-[12px] xl:w-[26px] h-min absolute xl:static left-[3.75rem] xl:left-auto" />
                         <p>Conoce más de nuestros <strong>servicios</strong></p>
                     </ButtonComponent>
                 </NavLink>
@@ -66,7 +66,7 @@ export const HomePage = () => {
                 </div>
                 <div className="absolute -translate-x-72 translate-y-[3.25rem] xl:translate-x-0 xl:-translate-y-20 bg-[url('/img/home/experience-bg-mobile.png')] xl:bg-[url('/img/home/experience-bg.png')] w-[921px] xl:w-full h-[690px] xl:h-[40rem] bg-cover bg-no-repeat bg-center">
                 </div>
-                <div className="text-black flex flex-col xl:flex-row xl:items-start justify-center xl:mt-32 xl:gap-10 container m-auto xl:px-24">
+                <div className="text-black flex flex-col xl:flex-row xl:items-start justify-center xl:mt-32 xl:gap-10 py-10 xl:py-0 container m-auto xl:px-24">
                     {
                         counterData.map((data, i) => (
                             <CounterComponent key={ i } counter={ data.counter } text={ data.text } subText={ data.subText } interval={data.interval} />
@@ -85,9 +85,9 @@ export const HomePage = () => {
                 </div>
                 <div className="xl:mb-44 relative py-6 xl:p-0">
                     <NavLink to={"/contacto"} className="w-[222px] xl:w-min flex m-auto" >
-                        <ButtonComponent custom="flex font-bold items-center justify-center gap-1 xl:gap-3 p-0 xl:pt-6 xl:pb-4 xl:px-[6rem] m-auto w-full h-[50px] xl:h-auto max-h-[50px] xl:max-h-[unset] text-lg">
+                        <ButtonComponent custom="flex items-center justify-center gap-[5px] xl:gap-3 p-0 xl:pt-5 xl:pb-5 xl:px-[6rem] m-auto w-full h-[50px] xl:h-auto max-h-[50px] xl:max-h-[unset] text-lg">
                             <PointerIcon className="rotate-[30deg] w-[16px] h-min xl:w-[26px]" />
-                            Contáctanos
+                            <p className="font-bold xl:-translate-y-[2px]">Contáctanos</p>
                         </ButtonComponent>
                     </NavLink>
                 </div>
