@@ -130,7 +130,7 @@ export const ClientsSliderComponent = () => {
                 className="mySwiper bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] xl:hidden h-[850px]"
             >
                 <SwiperSlide className="h-full flex items-center justify-center">
-                    <div className="grid grid-cols-2 content-between gap-x-5 h-[555px]">
+                    <div className="grid grid-cols-2 content-around gap-x-5 h-[555px]">
                         <div className="m-auto">
                             <CocaColaIcon className="w-[100px] h-min" />
                         </div>
