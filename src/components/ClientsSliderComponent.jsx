@@ -174,7 +174,7 @@ export const ClientsSliderComponent = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="flex flex-col gap-12">
+                    <div className="flex flex-col gap-6">
                         <div className="flex flex-row items-center">
                             <div className="w-full">
                                 <HencoIcon className="w-[105px] h-min m-auto" />
