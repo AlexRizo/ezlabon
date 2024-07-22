@@ -133,34 +133,34 @@ export const ClientsSliderComponent = () => {
                     <div className="flex flex-col gap-0">
                         <div className="flex flex-row items-center">
                             <div className="w-full">
-                                <CocaColaIcon className="w-[100px] h-min m-auto" />
+                                <CocaColaIcon className="w-[100px] !h-min m-auto" />
                             </div>
                             <div className="w-full">
-                                <GrupoMexicoIcon className="w-[160px] h-min m-auto" />
-                            </div>
-                        </div>
-                        <div className="flex flex-row items-center ">
-                            <div className="w-full">
-                                <TornelIcon className="w-[110px] h-min m-auto" />
-                            </div>
-                            <div className="w-full">
-                                <ArmaConcretoIcon className="w-[120px] h-min m-auto" />
+                                <GrupoMexicoIcon className="w-[160px] !h-min m-auto" />
                             </div>
                         </div>
                         <div className="flex flex-row items-center ">
                             <div className="w-full">
-                                <CpcIcon className="w-[70px] h-min m-auto" />
+                                <TornelIcon className="w-[110px] !h-min m-auto" />
                             </div>
                             <div className="w-full">
-                                <KuehneNagelIcon className="w-[150px] h-min m-auto" />
+                                <ArmaConcretoIcon className="w-[120px] !h-min m-auto" />
                             </div>
                         </div>
                         <div className="flex flex-row items-center ">
                             <div className="w-full">
-                                <CemexIcon className="w-[125px] h-min m-auto" />
+                                <CpcIcon className="w-[70px] !h-min m-auto" />
                             </div>
                             <div className="w-full">
-                                <CamesaIcon className="w-[125px] h-min m-auto" />
+                                <KuehneNagelIcon className="w-[150px] !h-min m-auto" />
+                            </div>
+                        </div>
+                        <div className="flex flex-row items-center ">
+                            <div className="w-full">
+                                <CemexIcon className="w-[125px] !h-min m-auto" />
+                            </div>
+                            <div className="w-full">
+                                <CamesaIcon className="w-[125px] !h-min m-auto" />
                             </div>
                         </div>
                         <div className="flex flex-row items-center ">
@@ -177,34 +177,34 @@ export const ClientsSliderComponent = () => {
                     <div className="flex flex-col gap-0">
                         <div className="flex flex-row items-center">
                             <div className="w-full">
-                                <HencoIcon className="w-[105px] h-min m-auto" />
+                                <HencoIcon className="w-[105px] !h-min m-auto" />
                             </div>
                             <div className="w-full">
-                                <MolycopIcon className="w-[90px] h-min m-auto" />
-                            </div>
-                        </div>
-                        <div className="flex flex-row items-center">
-                            <div className="w-full">
-                                <PenolesIcon className="w-[40px] h-min m-auto" />
-                            </div>
-                            <div className="w-full">
-                                <PandGIcon className="w-[50px] h-min m-auto" />
+                                <MolycopIcon className="w-[90px] !h-min m-auto" />
                             </div>
                         </div>
                         <div className="flex flex-row items-center">
                             <div className="w-full">
-                                <IBMEXIcon className="w-[50px] h-min m-auto" />
+                                <PenolesIcon className="w-[40px] !h-min m-auto" />
                             </div>
                             <div className="w-full">
-                                <MolIcon className="w-[60px] h-min m-auto" />
+                                <PandGIcon className="w-[50px] !h-min m-auto" />
                             </div>
                         </div>
                         <div className="flex flex-row items-center">
                             <div className="w-full">
-                                <MexinoxIcon className="w-[65px] h-min m-auto" />
+                                <IBMEXIcon className="w-[50px] !h-min m-auto" />
                             </div>
                             <div className="w-full">
-                                <MscIcon className="w-[50px] h-min m-auto" />
+                                <MolIcon className="w-[60px] !h-min m-auto" />
+                            </div>
+                        </div>
+                        <div className="flex flex-row items-center">
+                            <div className="w-full">
+                                <MexinoxIcon className="w-[65px] !h-min m-auto" />
+                            </div>
+                            <div className="w-full">
+                                <MscIcon className="w-[50px] !h-min m-auto" />
                             </div>
                         </div>
                     </div>
