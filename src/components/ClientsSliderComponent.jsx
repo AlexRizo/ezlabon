@@ -127,71 +127,85 @@ export const ClientsSliderComponent = () => {
                 cssMode={ true }
                 pagination={{ clickable: true }}
                 modules={[ Pagination ]}
-                className="mySwiper bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] xl:hidden"
+                className="mySwiper bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] xl:hidden h-min py-20"
             >
-                <SwiperSlide className="flex items-center justify-center">
-                    <div className="grid grid-cols-2 content-around gap-x-5">
-                        <div className="m-auto">
-                            <CocaColaIcon className="w-[100px] h-min" />
+                <SwiperSlide>
+                    <div className="flex flex-col gap-16">
+                        <div className="flex flex-row items-center">
+                            <div className="w-full">
+                                <CocaColaIcon className="w-[100px] h-min m-auto" />
+                            </div>
+                            <div className="w-full">
+                                <GrupoMexicoIcon className="w-[160px] h-min m-auto" />
+                            </div>
                         </div>
-                        <div className="m-auto">
-                            <GrupoMexicoIcon className="w-[160px] h-min" />
+                        <div className="flex flex-row items-center ">
+                            <div className="w-full">
+                                <TornelIcon className="w-[110px] h-min  m-auto" />
+                            </div>
+                            <div className="w-full">
+                                <ArmaConcretoIcon className="w-[120px] h-min m-auto" />
+                            </div>
                         </div>
-                        <div className="m-auto">
-                            <TornelIcon className="w-[110px] h-min" />
+                        <div className="flex flex-row items-center ">
+                            <div className="w-full">
+                                <CpcIcon className="w-[70px] h-min m-auto" />
+                            </div>
+                            <div className="w-full">
+                                <KuehneNagelIcon className="w-[150px] h-min m-auto" />
+                            </div>
                         </div>
-                        <div className="m-auto">
-                            <ArmaConcretoIcon className="w-[120px] h-min" />
+                        <div className="flex flex-row items-center ">
+                            <div className="w-full">
+                                <CemexIcon className="w-[125px] h-min m-auto" />
+                            </div>
+                            <div className="w-full">
+                                <CamesaIcon className="w-[125px] h-min m-auto" />
+                            </div>
                         </div>
-                        <div className="m-auto">
-                            <CpcIcon className="w-[70px] h-min" />
-                        </div>
-                        <div className="m-auto">
-                            <KuehneNagelIcon className="w-[150px] h-min" />
-                        </div>
-                        <div className="m-auto">
-                            <CemexIcon className="w-[125px] h-min" />
-                        </div>
-                        <div className="m-auto">
-                            <CamesaIcon className="w-[125px] h-min" />
-                        </div>
-                        <div className="m-auto">
-                            <StanleyIcon className="w-[115px] h-min" />
-                        </div>
-                        <div className="m-auto">
-                            <DaltileIcon className="w-[115px] h-min" />
+                        <div className="flex flex-row items-center ">
+                            <div className="w-full">
+                                <StanleyIcon className="w-[115px] h-min m-auto" />
+                            </div>
+                            <div className="w-full">
+                                <DaltileIcon className="w-[115px] h-min m-auto" />
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="h-full flex items-center justify-center">
-                    <div className="grid grid-cols-2 gap-x-5 content-around h-[555px]">
-                        <div className="m-auto">
-                            <HencoIcon className="w-[115px] h-min" />
+                <SwiperSlide>
+                    <div className="flex flex-col gap-12">
+                        <div className="flex flex-row items-center">
+                            <div className="w-full">
+                                <HencoIcon className="w-[105px] h-min m-auto" />
+                            </div>
+                            <div className="w-full">
+                                <MolycopIcon className="w-[90px] h-min m-auto" />
+                            </div>
                         </div>
-                        <div className="m-auto">
-                            <MolycopIcon className="w-[100px] h-min" />
+                        <div className="flex flex-row items-center">
+                            <div className="w-full">
+                                <PenolesIcon className="w-[40px] h-min m-auto" />
+                            </div>
+                            <div className="w-full">
+                                <PandGIcon className="w-[50px] h-min m-auto" />
+                            </div>
                         </div>
-                        <div className="m-auto">
-                            <PenolesIcon className="w-[46px] h-min" />
+                        <div className="flex flex-row items-center">
+                            <div className="w-full">
+                                <IBMEXIcon className="w-[50px] h-min m-auto" />
+                            </div>
+                            <div className="w-full">
+                                <MolIcon className="w-[60px] h-min m-auto" />
+                            </div>
                         </div>
-                        <div className="m-auto">
-                            <PandGIcon className="w-[60px] h-min" />
-                        </div>
-                        <div className="m-auto">
-                            <IBMEXIcon className="w-[55px] h-min" />
-                        </div>
-                        <div className="m-auto">
-                            <MolIcon className="w-[65px] h-min" />
-                        </div>
-                        <div className="m-auto">
-                            <MexinoxIcon className="w-[75px] h-min" />
-                        </div>
-                        <div className="m-auto">
-                            <MscIcon className="w-[55px] h-min" />
-                        </div>
-                        <div className="m-auto">
-                        </div>
-                        <div className="m-auto">
+                        <div className="flex flex-row items-center">
+                            <div className="w-full">
+                                <MexinoxIcon className="w-[65px] h-min m-auto" />
+                            </div>
+                            <div className="w-full">
+                                <MscIcon className="w-[50px] h-min m-auto" />
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
