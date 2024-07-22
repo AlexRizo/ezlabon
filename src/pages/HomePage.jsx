@@ -48,8 +48,13 @@ export const HomePage = () => {
             <div className="relative overflow-hidden xl:overflow-visible">
                 <h1 className="text-3xl xl:text-5xl text-[#2E5AFC] font-semibold text-center py-5 xl:py-12 xl:mt-12">Experiencia</h1>
                 <div className="flex flex-col xl:flex-row items-center justify-center w-full h-auto xl:w-[1170px] xl:h-[630px] xl:mx-auto">
-                    <div className="bg-gray-100 w-full h-full flex items-center justify-center py-14">                            
-                        <img src="/img/fletera-coliman.png" className="w-[230px] xl:w-[280px]" alt="Fletera Coliman" />
+                    <div className="bg-gray-100 w-full h-full flex items-center justify-center py-14">
+                        <div className="hidden xl:block">
+                            <img src="/img/fletera-coliman.png" className="w-[280px]" alt="Fletera Coliman" />
+                        </div>
+                        <div className="xl:hidden block">
+                            <img src="/img/fletera-coliman-mobile.png" alt="Fletera Coliman" />
+                        </div>                      
                     </div>
                     <div className="w-full h-full flex items-center justify-center bg-gradient-to-tr from-[#172D7E] to-[#2E5AFC] py-20">
                         <p className="text-[15px] xl:text-xl leading-6 xl:leading-[2.25rem] w-[330px] xl:w-[456px]">
