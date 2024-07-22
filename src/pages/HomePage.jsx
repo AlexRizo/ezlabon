@@ -32,7 +32,7 @@ const counterData = [
 export const HomePage = () => {
     return (
         <>
-            <div className="w-full h-screen relative flex flex-col items-center bg-[url('/img/home/bg-home-mobile.jpg')] xl:bg-[url('/img/home/bg-home.jpg')] bg-no-repeat bg-cover bg-center">
+            <div className="w-full h-screen relative flex flex-col items-center bg-[url('/img/home/bg-home-mobile.png')] xl:bg-[url('/img/home/bg-home.jpg')] bg-no-repeat bg-cover bg-center">
                 { 
                 //? ButtonComponent puede recibir un { children } y 
                 //? { content }, pero sólo puede usar uno de los 2 
