@@ -130,7 +130,7 @@ export const ClientsSliderComponent = () => {
                 className="mySwiper bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] xl:hidden !h-auto py-20"
             >
                 <SwiperSlide>
-                    <div className="flex flex-col gap-5">
+                    <div className="flex flex-col gap-0">
                         <div className="flex flex-row items-center">
                             <div className="w-full">
                                 <CocaColaIcon className="w-[100px] h-min m-auto" />
@@ -174,7 +174,7 @@ export const ClientsSliderComponent = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="flex flex-col gap-3">
+                    <div className="flex flex-col gap-0">
                         <div className="flex flex-row items-center">
                             <div className="w-full">
                                 <HencoIcon className="w-[105px] h-min m-auto" />
