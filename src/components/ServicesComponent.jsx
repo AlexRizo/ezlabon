@@ -13,7 +13,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             { services[1].p2 && <p>{ services[1].p2 }</p> }
                         </div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16.72" height="93.89" viewBox="0 0 16.72 93.89">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="93.89" viewBox="0 0 16.72 93.89">
                                 <g id="Grupo_48" data-name="Grupo 48" transform="translate(-1321.3 -292.83)">
                                     <line id="Línea_9" data-name="Línea 9" y2="86.98" transform="translate(1329.66 292.83)" fill="none" stroke="#2e5afc" strokeMiterlimit="10" strokeWidth="1"/>
                                     <circle id="Elipse_11" data-name="Elipse 11" cx="8.36" cy="8.36" r="8.36" transform="translate(1321.3 370)" fill="#2e5afc"/>
@@ -33,7 +33,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             </div>
                         </div>
                         <div className="rotate-180">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16.72" height="93.89" viewBox="0 0 16.72 93.89">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="93.89" viewBox="0 0 16.72 93.89">
                                 <g id="Grupo_48" data-name="Grupo 48" transform="translate(-1321.3 -292.83)">
                                     <line id="Línea_9" data-name="Línea 9" y2="86.98" transform="translate(1329.66 292.83)" fill="none" stroke="#2e5afc" strokeMiterlimit="10" strokeWidth="1"/>
                                     <circle id="Elipse_11" data-name="Elipse 11" cx="8.36" cy="8.36" r="8.36" transform="translate(1321.3 370)" fill="#2e5afc"/>
@@ -51,7 +51,7 @@ export const ServicesComponent = ({ title = true, services = {}, bg = 'bg-half-g
                             { services[3].p2 && <p>{ services[3].p2 }</p> }
                         </div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16.72" height="93.89" viewBox="0 0 16.72 93.89">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="93.89" viewBox="0 0 16.72 93.89">
                                 <g id="Grupo_48" data-name="Grupo 48" transform="translate(-1321.3 -292.83)">
                                     <line id="Línea_9" data-name="Línea 9" y2="86.98" transform="translate(1329.66 292.83)" fill="none" stroke="#2e5afc" strokeMiterlimit="10" strokeWidth="1"/>
                                     <circle id="Elipse_11" data-name="Elipse 11" cx="8.36" cy="8.36" r="8.36" transform="translate(1321.3 370)" fill="#2e5afc"/>
