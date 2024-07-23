@@ -175,38 +175,38 @@ export const ClientsSliderComponent = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="flex flex-col gap-0">
-                        {/* <div className="flex flex-row items-center">
+                        <div className="flex flex-row items-center">
                             <div className="w-full">
-                                <HencoIcon className="m-auto" width={  } height={  } />
+                                <HencoIcon className="m-auto" width={ 105 } height={ 25.54 } />
                             </div>
                             <div className="w-full">
-                                <MolycopIcon className="m-auto" width={  } height={  } />
+                                <MolycopIcon className="m-auto" width={ 90 } height={ 15.11 } />
                             </div>
                         </div>
                         <div className="flex flex-row items-center">
                             <div className="w-full">
-                                <PenolesIcon className="m-auto" width={  } height={  } />
+                                <PenolesIcon className="m-auto" width={ 50 } height={ 60.06 } />
                             </div>
                             <div className="w-full">
-                                <PandGIcon className="m-auto" width={  } height={  } />
+                                <PandGIcon className="m-auto" width={ 60 } height={ 54.75 } />
                             </div>
                         </div>
                         <div className="flex flex-row items-center">
                             <div className="w-full">
-                                <IBMEXIcon className="m-auto" width={  } height={  } />
+                                <IBMEXIcon className="m-auto" width={ 50.01 } height={ 60.13 } />
                             </div>
                             <div className="w-full">
-                                <MolIcon className="m-auto" width={  } height={  } />
+                                <MolIcon className="m-auto" width={ 70 } height={ 38.16 } />
                             </div>
                         </div>
                         <div className="flex flex-row items-center">
                             <div className="w-full">
-                                <MexinoxIcon className="m-auto" width={  } height={  } />
+                                <MexinoxIcon className="m-auto" width={ 70 } height={ 36.91 } />
                             </div>
                             <div className="w-full">
-                                <MscIcon className="m-auto" width={  } height={  } />
+                                <MscIcon className="m-auto" width={ 60 } height={ 52.63 } />
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </SwiperSlide>
             </Swiper>
