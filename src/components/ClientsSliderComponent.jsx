@@ -175,7 +175,7 @@ export const ClientsSliderComponent = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="flex flex-col gap-0">
-                        <div className="flex flex-row items-center">
+                        {/* <div className="flex flex-row items-center">
                             <div className="w-full">
                                 <HencoIcon className="m-auto" width={  } height={  } />
                             </div>
@@ -206,7 +206,7 @@ export const ClientsSliderComponent = () => {
                             <div className="w-full">
                                 <MscIcon className="m-auto" width={  } height={  } />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </SwiperSlide>
             </Swiper>
