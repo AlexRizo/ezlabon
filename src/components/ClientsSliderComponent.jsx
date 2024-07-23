@@ -130,7 +130,7 @@ export const ClientsSliderComponent = () => {
                 className="mySwiper bg-gradient-to-t from-[#172D7E] to-[#2E5AFC] xl:hidden !h-auto py-20"
             >
                 <SwiperSlide>
-                    <div className="flex flex-col gap-0">
+                    <div className="flex flex-col gap-16">
                         <div className="flex flex-row items-center">
                             <div className="w-full">
                                 <CocaColaIcon className="m-auto" width={ 100 } height={ 31.37 } />
@@ -174,7 +174,7 @@ export const ClientsSliderComponent = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="flex flex-col gap-0">
+                    <div className="flex flex-col gap-10">
                         <div className="flex flex-row items-center">
                             <div className="w-full">
                                 <HencoIcon className="m-auto" width={ 105 } height={ 25.54 } />
@@ -185,7 +185,7 @@ export const ClientsSliderComponent = () => {
                         </div>
                         <div className="flex flex-row items-center">
                             <div className="w-full">
-                                <PenolesIcon className="m-auto" width={ 50 } height={ 60.06 } />
+                                <PenolesIcon className="m-auto" />
                             </div>
                             <div className="w-full">
                                 <PandGIcon className="m-auto" width={ 60 } height={ 54.75 } />
