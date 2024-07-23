@@ -6,3 +6,4 @@ export * from './EquipoComponent';
 export * from './IndexComponent';
 export * from './ModalComponent';
 export * from './BgLinesComponent';
+export * from './FleteraComponent'
