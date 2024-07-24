@@ -53,7 +53,7 @@ export const HomePage = () => {
                             <img src="/img/fletera-coliman.png" className="w-[280px]" alt="Fletera Coliman" />
                         </div>
                         <div className="xl:hidden block">
-                            <img src="/img/fletera-coliman-mobile.png" alt="Fletera Coliman" />
+                            <img src="/img/fletera-coliman-mobile.png" className="w-[230px]" alt="Fletera Coliman" />
                         </div>                      
                     </div>
                     <div className="w-full h-full flex items-center justify-center bg-gradient-to-tr from-[#172D7E] to-[#2E5AFC] py-20">
