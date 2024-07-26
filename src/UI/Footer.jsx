@@ -23,13 +23,11 @@ export const Footer = () => {
                     </NavLink>
                 </div>
                 <nav className="flex xl:flex-col gap-7 order-3 items-center">
-                    <a href="tel:+523121021117" className="flex gap-2 text-[#2E5AFC] h-8" >
+                    <a href="tel:+523121021117" >
                         <PhoneOutlinedIcon />
-                        <p>+52 312 1021 117</p>
                     </a>
-                    <a href="mailto:administracion@ezlabon.mx" className="flex gap-2 text-[#2E5AFC] h-8" >
+                    <a href="mailto:administracion@ezlabon.mx" >
                         <EnvelopeIcon className="text-[#2E5AFC] h-8"/>
-                        <p>administracion@ezlabon.mx</p>
                     </a>
                 </nav>
             </div>
