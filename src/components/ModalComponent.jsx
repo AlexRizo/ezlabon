@@ -8,7 +8,7 @@ export const ModalComponent = ({ isOpen }) => {
         <div className="w-screen h-screen fixed z-[9999] flex items-center justify-center top-0">
             <div className="hidden xl:block bg-black/40 w-full h-full absolute" onClick={ quitModal }>
             </div>
-            <div className="bg-white/60 backdrop-blur-md xl:px-10 px-3 flex flex-col relative w-4/5">
+            <div className="bg-white/60 backdrop-blur-md xl:px-10 px-3 flex flex-col relative xl:w-min w-4/5">
                     <div className="flex justify-end xl:pt-10 pt-2 xl:mb-20 cursor-pointer" onClick={ quitModal }>
                         <svg id="Grupo_111" data-name="Grupo 111" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="31.531" height="31.531" viewBox="0 0 31.531 31.531" className="w-5 xl:w-auto mb-8 xl:m-0">
                             <defs>
