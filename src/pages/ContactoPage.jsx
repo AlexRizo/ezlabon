@@ -5,18 +5,18 @@ import { useForm } from '../hooks/useForm';
 import { emailSender } from '../helpers/sendEmail';
 
 const formData = {
-    nombre: '',
-    empresa: '',
-    correo: '',
-    telefono: '',
+    nombre: 'David',
+    empresa: 'Alowee',
+    correo: 'dev@alowee.com',
+    telefono: '3125547870',
     contenedores: '',
-    contenedores2: '',
-    mercancia: '',
-    peso: '',
-    carga: '',
-    descarga: '',
-    servicios: '',
-    detalles: ''
+    contenedores2: '5',
+    mercancia: 'Computadoras',
+    peso: '100kg',
+    carga: 'Colima',
+    descarga: 'Manzanillo',
+    servicios: 'Servicios',
+    detalles: 'Detalles'
 };
 
 
