@@ -32,9 +32,12 @@ export const Footer = () => {
                 </nav>
             </div>
             <div className="pb-3 pt-1 xl:p-3 text-center text-[#2E5AFC] border-t border-[#2E5AFC] text-lg">
-                <span className="cursor-pointer">
+                <a href="/Aviso de privacidad_ezlabon.mx_escritorio.pdf" download className="cursor-pointer hidden xl:block">
                     Aviso de privacidad
-                </span>
+                </a>
+                <a href="/Aviso de privacidad_ezlabon.mx_mobile.pdf" download className="cursor-pointer xl:hidden">
+                    Aviso de privacidad
+                </a>
             </div>
         </footer>
     )
