@@ -5,18 +5,18 @@ import { useForm } from '../hooks/useForm';
 import { emailSender } from '../helpers/sendEmail';
 
 const formData = {
-    nombre: 'David',
-    empresa: 'Alowee',
-    correo: 'dev@alowee.com',
-    telefono: '3125547870',
+    nombre: '',
+    empresa: '',
+    correo: '',
+    telefono: '',
     contenedores: '',
-    contenedores2: '5',
-    mercancia: 'Computadoras',
-    peso: '100kg',
-    carga: 'Colima',
-    descarga: 'Manzanillo',
-    servicios: 'Servicios',
-    detalles: 'Detalles'
+    contenedores2: '',
+    mercancia: '',
+    peso: '',
+    carga: '',
+    descarga: '',
+    servicios: '',
+    detalles: ''
 };
 
 
@@ -45,8 +45,7 @@ export const ContactoPage = () => {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        console.log({ formState });
-        // onResetForm();
+        onResetForm();
         setIsOpenModal(true);
         emailSender(formState);
     }; 
