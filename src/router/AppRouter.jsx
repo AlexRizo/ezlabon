@@ -18,7 +18,7 @@ export const AppRouter = [
             {
                 path: '/contacto',
                 element: <ContactoPage />
-            }
+            },
         ]
     },
     {

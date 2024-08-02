@@ -37,9 +37,12 @@ export const Footer = () => {
                 </nav>
             </div>
             <div className="pb-3 pt-1 xl:p-3 text-center text-[#2E5AFC] border-t border-[#2E5AFC] text-lg">
-                <button onClick={ () => setShowPolitic(true) }>
+                <button onClick={ () => setShowPolitic(true) } className="hidden xl:block m-auto">
                     Aviso de privacidad
                 </button>
+                <a href="/Aviso de privacidad_ezlabon.mx_mobile.pdf" className="xl:hidden">
+                    Aviso de privacidad
+                </a>
             </div>
         </footer>
     )

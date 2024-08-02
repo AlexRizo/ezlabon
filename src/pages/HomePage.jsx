@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import { ButtonComponent, ClientsSliderComponent, CounterComponent } from "../components"
-import { PointerIcon } from "../icons";
+import { ObjectIcon, PointerIcon } from "../icons";
 
 const counterData = [
     {
@@ -32,7 +32,19 @@ const counterData = [
 export const HomePage = () => {
     return (
         <>
-            <div className="w-full h-screen relative flex flex-col items-center bg-[url('/img/home/bg-home-mobile.jpg')] xl:bg-[url('/img/home/bg-home.jpg')] bg-no-repeat bg-cover bg-center">
+            <div className="w-full h-screen relative flex flex-col items-center bg-[url('/img/home/bg-home-mobile-2.jpg')] xl:bg-[url('/img/home/bg-home.jpg')] bg-no-repeat bg-cover bg-center">
+                <div className="absolute flex flex-col w-full h-full justify-center gap-[150px] xl:hidden">
+                    <span className="flex flex-col items-center translate-x-[50px] translate-y-6 leading-3 w-max mx-auto">
+                        <p>Especialistas en transporte</p>
+                        <p className="text-3xl font-bold">de carga federal</p>
+                        <ObjectIcon className="mt-1" />
+                    </span>
+                    <span className="flex flex-col items-center translate-x-[-54px] w-max mx-auto">
+                        <ObjectIcon className="rotate-180" />
+                        <p>Servicios integrales</p>
+                        <p className="text-3xl font-bold">de logística</p>
+                    </span>
+                </div>
                 { 
                 //? ButtonComponent puede recibir un { children } y 
                 //? { content }, pero sólo puede usar uno de los 2 
