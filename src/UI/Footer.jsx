@@ -1,10 +1,15 @@
+import { useState } from "react"
 import { EnvelopeIcon } from "@heroicons/react/24/outline"
 import { NavLink } from "react-router-dom"
 import { EzlabonIcon, PhoneOutlinedIcon } from "../icons"
+import { PoliticPage } from "../pages"
 
 export const Footer = () => {
+    const [showPolitic, setShowPolitic] = useState(false)
+
     return (
         <footer className="bg-[#F5F5F5]">
+            { showPolitic && <PoliticPage toggle={setShowPolitic} /> }
             <div className="flex flex-col xl:flex-row items-center justify-between xl:px-56 py-10 xl:py-16 xl:gap-9 gap-4 container m-auto">
                 <nav className="text-[#2E5AFC] text-xl flex flex-col gap-2 items-center xl:items-start order-2 xl:order-1">
                     <NavLink to={ '/' }>
@@ -32,12 +37,9 @@ export const Footer = () => {
                 </nav>
             </div>
             <div className="pb-3 pt-1 xl:p-3 text-center text-[#2E5AFC] border-t border-[#2E5AFC] text-lg">
-                <a href="/Aviso de privacidad_ezlabon.mx_escritorio.pdf" download className="cursor-pointer hidden xl:block">
+                <button onClick={ () => setShowPolitic(true) }>
                     Aviso de privacidad
-                </a>
-                <a href="/Aviso de privacidad_ezlabon.mx_mobile.pdf" download className="cursor-pointer xl:hidden">
-                    Aviso de privacidad
-                </a>
+                </button>
             </div>
         </footer>
     )
